@@ -1,0 +1,1096 @@
+(function($) {
+  __ = wp.i18n.__;
+
+  function resetToggle( $button, show ) {
+    $button
+      .attr({
+        'aria-label': show ? __( 'Show password' ) : __( 'Hide password' )
+      })
+      .find( '.text' )
+        .text( show ? __( 'Show' ) : __( 'Hide' ) )
+      .end()
+      .find( '.dashicons' )
+        .removeClass( show ? 'dashicons-hidden' : 'dashicons-visibility' )
+        .addClass( show ? 'dashicons-visibility' : 'dashicons-hidden' );
+  }
+
+  $(document).ready( function() {
+    $('body').on('click', 'button.mp-hide-pw', function () {
+      var $button = $(this),
+        $pass = $button.prev();
+
+      if ( 'password' === $pass.attr( 'type' ) ) {
+        $pass.attr( 'type', 'text' );
+        resetToggle( $button, false );
+      } else {
+        $pass.attr( 'type', 'password' );
+        resetToggle( $button, true );
+      }
+    });
+
+    // Pro Template
+    if( $('#mepro-login-hero').length ){
+      if( $('#mepr_loginform').length ){
+        $("#user_login, #user_pass").on("input", function(){
+          if ( $('#user_login').val().length > 0 && $('#user_pass').val().length > 0) {
+            $('#wp-submit').removeClass('disabled');
+          }
+        })
+      }
+    }
+    // End Pro Template
+  });
+})(jQuery);
+;
+!function(e){"function"==typeof define&&define.amd?define(["jquery"],e):"object"==typeof exports?e(require("jquery")):e(window.jQuery||window.Zepto)}(function(c){function e(){}function d(e,t){m.ev.on(x+e+I,t)}function p(e,t,n,o){var i=document.createElement("div");return i.className="mfp-"+e,n&&(i.innerHTML=n),o?t&&t.appendChild(i):(i=c(i),t&&i.appendTo(t)),i}function u(e,t){m.ev.triggerHandler(x+e,t),m.st.callbacks&&(e=e.charAt(0).toLowerCase()+e.slice(1),m.st.callbacks[e])&&m.st.callbacks[e].apply(m,Array.isArray(t)?t:[t])}function f(e){return e===A&&m.currTemplate.closeBtn||(m.currTemplate.closeBtn=c(m.st.closeMarkup.replace("%title%",m.st.tClose)),A=e),m.currTemplate.closeBtn}function r(){c.magnificPopup.instance||((m=new e).init(),c.magnificPopup.instance=m)}function a(){y&&(v.after(y.addClass(l)).detach(),y=null)}function i(){n&&c(document.body).removeClass(n)}function t(){i(),m.req&&m.req.abort()}var m,o,g,s,h,A,l,v,y,n,w="Close",F="BeforeClose",C="MarkupParse",b="Open",j="Change",x="mfp",I="."+x,T="mfp-ready",N="mfp-removing",k="mfp-prevent-close",P=!!window.jQuery,_=c(window),S=(c.magnificPopup={instance:null,proto:e.prototype={constructor:e,init:function(){var e=navigator.appVersion;m.isLowIE=m.isIE8=document.all&&!document.addEventListener,m.isAndroid=/android/gi.test(e),m.isIOS=/iphone|ipad|ipod/gi.test(e),m.supportsTransition=function(){var e=document.createElement("p").style,t=["ms","O","Moz","Webkit"];if(void 0!==e.transition)return!0;for(;t.length;)if(t.pop()+"Transition"in e)return!0;return!1}(),m.probablyMobile=m.isAndroid||m.isIOS||/(Opera Mini)|Kindle|webOS|BlackBerry|(Opera Mobi)|(Windows Phone)|IEMobile/i.test(navigator.userAgent),g=c(document),m.popupsCache={}},open:function(e){if(!1===e.isObj){m.items=e.items.toArray(),m.index=0;for(var t,n=e.items,o=0;o<n.length;o++)if((t=(t=n[o]).parsed?t.el[0]:t)===e.el[0]){m.index=o;break}}else m.items=Array.isArray(e.items)?e.items:[e.items],m.index=e.index||0;if(!m.isOpen){m.types=[],h="",e.mainEl&&e.mainEl.length?m.ev=e.mainEl.eq(0):m.ev=g,e.key?(m.popupsCache[e.key]||(m.popupsCache[e.key]={}),m.currTemplate=m.popupsCache[e.key]):m.currTemplate={},m.st=c.extend(!0,{},c.magnificPopup.defaults,e),m.fixedContentPos="auto"===m.st.fixedContentPos?!m.probablyMobile:m.st.fixedContentPos,m.st.modal&&(m.st.closeOnContentClick=!1,m.st.closeOnBgClick=!1,m.st.showCloseBtn=!1,m.st.enableEscapeKey=!1),m.bgOverlay||(m.bgOverlay=p("bg").on("click"+I,function(){m.close()}),m.wrap=p("wrap").attr("tabindex",-1).on("click"+I,function(e){m._checkIfClose(e.target)&&m.close()}),m.container=p("container",m.wrap)),m.contentContainer=p("content"),m.st.preloader&&(m.preloader=p("preloader",m.container,m.st.tLoading));var i=c.magnificPopup.modules;for(o=0;o<i.length;o++){var r=(r=i[o]).charAt(0).toUpperCase()+r.slice(1);m["init"+r].call(m)}u("BeforeOpen"),m.st.showCloseBtn&&(m.st.closeBtnInside?(d(C,function(e,t,n,o){n.close_replaceWith=f(o.type)}),h+=" mfp-close-btn-in"):m.wrap.append(f())),m.st.alignTop&&(h+=" mfp-align-top"),m.fixedContentPos?m.wrap.css({overflow:m.st.overflowY,overflowX:"hidden",overflowY:m.st.overflowY}):m.wrap.css({top:_.scrollTop(),position:"absolute"}),!1!==m.st.fixedBgPos&&("auto"!==m.st.fixedBgPos||m.fixedContentPos)||m.bgOverlay.css({height:g.height(),position:"absolute"}),m.st.enableEscapeKey&&g.on("keyup"+I,function(e){27===e.keyCode&&m.close()}),_.on("resize"+I,function(){m.updateSize()}),m.st.closeOnContentClick||(h+=" mfp-auto-cursor"),h&&m.wrap.addClass(h);var a=m.wH=_.height(),s={},l=(m.fixedContentPos&&m._hasScrollBar(a)&&(l=m._getScrollbarSize())&&(s.marginRight=l),m.fixedContentPos&&(m.isIE7?c("body, html").css("overflow","hidden"):s.overflow="hidden"),m.st.mainClass);return m.isIE7&&(l+=" mfp-ie7"),l&&m._addClassToMFP(l),m.updateItemHTML(),u("BuildControls"),c("html").css(s),m.bgOverlay.add(m.wrap).prependTo(m.st.prependTo||c(document.body)),m._lastFocusedEl=document.activeElement,setTimeout(function(){m.content?(m._addClassToMFP(T),m._setFocus()):m.bgOverlay.addClass(T),g.on("focusin"+I,m._onFocusIn)},16),m.isOpen=!0,m.updateSize(a),u(b),e}m.updateItemHTML()},close:function(){m.isOpen&&(u(F),m.isOpen=!1,m.st.removalDelay&&!m.isLowIE&&m.supportsTransition?(m._addClassToMFP(N),setTimeout(function(){m._close()},m.st.removalDelay)):m._close())},_close:function(){u(w);var e=N+" "+T+" ";m.bgOverlay.detach(),m.wrap.detach(),m.container.empty(),m.st.mainClass&&(e+=m.st.mainClass+" "),m._removeClassFromMFP(e),m.fixedContentPos&&(e={marginRight:""},m.isIE7?c("body, html").css("overflow",""):e.overflow="",c("html").css(e)),g.off("keyup.mfp focusin"+I),m.ev.off(I),m.wrap.attr("class","mfp-wrap").removeAttr("style"),m.bgOverlay.attr("class","mfp-bg"),m.container.attr("class","mfp-container"),!m.st.showCloseBtn||m.st.closeBtnInside&&!0!==m.currTemplate[m.currItem.type]||m.currTemplate.closeBtn&&m.currTemplate.closeBtn.detach(),m.st.autoFocusLast&&m._lastFocusedEl&&c(m._lastFocusedEl).trigger("focus"),m.currItem=null,m.content=null,m.currTemplate=null,m.prevHeight=0,u("AfterClose")},updateSize:function(e){var t;m.isIOS?(t=document.documentElement.clientWidth/window.innerWidth,t=window.innerHeight*t,m.wrap.css("height",t),m.wH=t):m.wH=e||_.height(),m.fixedContentPos||m.wrap.css("height",m.wH),u("Resize")},updateItemHTML:function(){var e=m.items[m.index],t=(m.contentContainer.detach(),m.content&&m.content.detach(),(e=e.parsed?e:m.parseEl(m.index)).type),n=(u("BeforeChange",[m.currItem?m.currItem.type:"",t]),m.currItem=e,m.currTemplate[t]||(n=!!m.st[t]&&m.st[t].markup,u("FirstMarkupParse",n),m.currTemplate[t]=!n||c(n)),s&&s!==e.type&&m.container.removeClass("mfp-"+s+"-holder"),m["get"+t.charAt(0).toUpperCase()+t.slice(1)](e,m.currTemplate[t]));m.appendContent(n,t),e.preloaded=!0,u(j,e),s=e.type,m.container.prepend(m.contentContainer),u("AfterChange")},appendContent:function(e,t){(m.content=e)?m.st.showCloseBtn&&m.st.closeBtnInside&&!0===m.currTemplate[t]?m.content.find(".mfp-close").length||m.content.append(f()):m.content=e:m.content="",u("BeforeAppend"),m.container.addClass("mfp-"+t+"-holder"),m.contentContainer.append(m.content)},parseEl:function(e){var t,n=m.items[e];if((n=n.tagName?{el:c(n)}:(t=n.type,{data:n,src:n.src})).el){for(var o=m.types,i=0;i<o.length;i++)if(n.el.hasClass("mfp-"+o[i])){t=o[i];break}n.src=n.el.attr("data-mfp-src"),n.src||(n.src=n.el.attr("href"))}return n.type=t||m.st.type||"inline",n.index=e,n.parsed=!0,m.items[e]=n,u("ElementParse",n),m.items[e]},addGroup:function(t,n){function e(e){e.mfpEl=this,m._openClick(e,t,n)}var o="click.magnificPopup";(n=n||{}).mainEl=t,n.items?(n.isObj=!0,t.off(o).on(o,e)):(n.isObj=!1,n.delegate?t.off(o).on(o,n.delegate,e):(n.items=t).off(o).on(o,e))},_openClick:function(e,t,n){var o=(void 0!==n.midClick?n:c.magnificPopup.defaults).midClick;if(o||!(2===e.which||e.ctrlKey||e.metaKey||e.altKey||e.shiftKey)){o=(void 0!==n.disableOn?n:c.magnificPopup.defaults).disableOn;if(o)if("function"==typeof o){if(!o.call(m))return!0}else if(_.width()<o)return!0;e.type&&(e.preventDefault(),m.isOpen)&&e.stopPropagation(),n.el=c(e.mfpEl),n.delegate&&(n.items=t.find(n.delegate)),m.open(n)}},updateStatus:function(e,t){var n;m.preloader&&(o!==e&&m.container.removeClass("mfp-s-"+o),n={status:e,text:t=t||"loading"!==e?t:m.st.tLoading},u("UpdateStatus",n),e=n.status,t=n.text,m.st.allowHTMLInStatusIndicator?m.preloader.html(t):m.preloader.text(t),m.preloader.find("a").on("click",function(e){e.stopImmediatePropagation()}),m.container.addClass("mfp-s-"+e),o=e)},_checkIfClose:function(e){if(!c(e).closest("."+k).length){var t=m.st.closeOnContentClick,n=m.st.closeOnBgClick;if(t&&n)return!0;if(!m.content||c(e).closest(".mfp-close").length||m.preloader&&e===m.preloader[0])return!0;if(e===m.content[0]||c.contains(m.content[0],e)){if(t)return!0}else if(n&&c.contains(document,e))return!0;return!1}},_addClassToMFP:function(e){m.bgOverlay.addClass(e),m.wrap.addClass(e)},_removeClassFromMFP:function(e){this.bgOverlay.removeClass(e),m.wrap.removeClass(e)},_hasScrollBar:function(e){return(m.isIE7?g.height():document.body.scrollHeight)>(e||_.height())},_setFocus:function(){(m.st.focus?m.content.find(m.st.focus).eq(0):m.wrap).trigger("focus")},_onFocusIn:function(e){if(e.target!==m.wrap[0]&&!c.contains(m.wrap[0],e.target))return m._setFocus(),!1},_parseMarkup:function(i,e,t){var r;t.data&&(e=c.extend(t.data,e)),u(C,[i,e,t]),c.each(e,function(e,t){if(void 0===t||!1===t)return!0;var n,o;1<(r=e.split("_")).length?0<(n=i.find(I+"-"+r[0])).length&&("replaceWith"===(o=r[1])?n[0]!==t[0]&&n.replaceWith(t):"img"===o?n.is("img")?n.attr("src",t):n.replaceWith(c("<img>").attr("src",t).attr("class",n.attr("class"))):n.attr(r[1],t)):m.st.allowHTMLInTemplate?i.find(I+"-"+e).html(t):i.find(I+"-"+e).text(t)})},_getScrollbarSize:function(){var e;return void 0===m.scrollbarSize&&((e=document.createElement("div")).style.cssText="width: 99px; height: 99px; overflow: scroll; position: absolute; top: -9999px;",document.body.appendChild(e),m.scrollbarSize=e.offsetWidth-e.clientWidth,document.body.removeChild(e)),m.scrollbarSize}},modules:[],open:function(e,t){return r(),(e=e?c.extend(!0,{},e):{}).isObj=!0,e.index=t||0,this.instance.open(e)},close:function(){return c.magnificPopup.instance&&c.magnificPopup.instance.close()},registerModule:function(e,t){t.options&&(c.magnificPopup.defaults[e]=t.options),c.extend(this.proto,t.proto),this.modules.push(e)},defaults:{disableOn:0,key:null,midClick:!1,mainClass:"",preloader:!0,focus:"",closeOnContentClick:!1,closeOnBgClick:!0,closeBtnInside:!0,showCloseBtn:!0,enableEscapeKey:!0,modal:!1,alignTop:!1,removalDelay:0,prependTo:null,fixedContentPos:"auto",fixedBgPos:"auto",overflowY:"auto",closeMarkup:'<button title="%title%" type="button" class="mfp-close">&#215;</button>',tClose:"Close (Esc)",tLoading:"Loading...",autoFocusLast:!0,allowHTMLInStatusIndicator:!1,allowHTMLInTemplate:!1}},c.fn.magnificPopup=function(e){r();var t,n,o,i=c(this);return"string"==typeof e?"open"===e?(t=P?i.data("magnificPopup"):i[0].magnificPopup,n=parseInt(arguments[1],10)||0,o=t.items?t.items[n]:(o=i,(o=t.delegate?o.find(t.delegate):o).eq(n)),m._openClick({mfpEl:o},i,t)):m.isOpen&&m[e].apply(m,Array.prototype.slice.call(arguments,1)):(e=c.extend(!0,{},e),P?i.data("magnificPopup",e):i[0].magnificPopup=e,m.addGroup(i,e)),i},"inline"),E=(c.magnificPopup.registerModule(S,{options:{hiddenClass:"hide",markup:"",tNotFound:"Content not found"},proto:{initInline:function(){m.types.push(S),d(w+"."+S,function(){a()})},getInline:function(e,t){var n,o,i;return a(),e.src?(n=m.st.inline,(o=c(e.src)).length?((i=o[0].parentNode)&&i.tagName&&(v||(l=n.hiddenClass,v=p(l),l="mfp-"+l),y=o.after(v).detach().removeClass(l)),m.updateStatus("ready")):(m.updateStatus("error",n.tNotFound),o=c("<div>")),e.inlineElement=o):(m.updateStatus("ready"),m._parseMarkup(t,{},e),t)}}}),"ajax");c.magnificPopup.registerModule(E,{options:{settings:null,cursor:"mfp-ajax-cur",tError:"The content could not be loaded."},proto:{initAjax:function(){m.types.push(E),n=m.st.ajax.cursor,d(w+"."+E,t),d("BeforeChange."+E,t)},getAjax:function(o){n&&c(document.body).addClass(n),m.updateStatus("loading");var e=c.extend({url:o.src,success:function(e,t,n){e={data:e,xhr:n};u("ParseAjax",e),m.appendContent(c(e.data),E),o.finished=!0,i(),m._setFocus(),setTimeout(function(){m.wrap.addClass(T)},16),m.updateStatus("ready"),u("AjaxContentAdded")},error:function(){i(),o.finished=o.loadError=!0,m.updateStatus("error",m.st.ajax.tError.replace("%url%",o.src))}},m.st.ajax.settings);return m.req=c.ajax(e),""}}});var z;c.magnificPopup.registerModule("image",{options:{markup:'<div class="mfp-figure"><div class="mfp-close"></div><figure><div class="mfp-img"></div><figcaption><div class="mfp-bottom-bar"><div class="mfp-title"></div><div class="mfp-counter"></div></div></figcaption></figure></div>',cursor:"mfp-zoom-out-cur",titleSrc:"title",verticalFit:!0,tError:"The image could not be loaded."},proto:{initImage:function(){var e=m.st.image,t=".image";m.types.push("image"),d(b+t,function(){"image"===m.currItem.type&&e.cursor&&c(document.body).addClass(e.cursor)}),d(w+t,function(){e.cursor&&c(document.body).removeClass(e.cursor),_.off("resize"+I)}),d("Resize"+t,m.resizeImage),m.isLowIE&&d("AfterChange",m.resizeImage)},resizeImage:function(){var e,t=m.currItem;t&&t.img&&m.st.image.verticalFit&&(e=0,m.isLowIE&&(e=parseInt(t.img.css("padding-top"),10)+parseInt(t.img.css("padding-bottom"),10)),t.img.css("max-height",m.wH-e))},_onImageHasSize:function(e){e.img&&(e.hasSize=!0,z&&clearInterval(z),e.isCheckingImgSize=!1,u("ImageHasSize",e),e.imgHidden)&&(m.content&&m.content.removeClass("mfp-loading"),e.imgHidden=!1)},findImageSize:function(t){function n(e){z&&clearInterval(z),z=setInterval(function(){0<i.naturalWidth?m._onImageHasSize(t):(200<o&&clearInterval(z),3===++o?n(10):40===o?n(50):100===o&&n(500))},e)}var o=0,i=t.img[0];n(1)},getImage:function(e,t){function n(){e&&(e.img.off(".mfploader"),e===m.currItem&&(m._onImageHasSize(e),m.updateStatus("error",a.tError.replace("%url%",e.src))),e.hasSize=!0,e.loaded=!0,e.loadError=!0)}function o(){e&&(e.img[0].complete?(e.img.off(".mfploader"),e===m.currItem&&(m._onImageHasSize(e),m.updateStatus("ready")),e.hasSize=!0,e.loaded=!0,u("ImageLoadComplete")):++r<200?setTimeout(o,100):n())}var i,r=0,a=m.st.image,s=t.find(".mfp-img");return s.length&&((i=document.createElement("img")).className="mfp-img",e.el&&e.el.find("img").length&&(i.alt=e.el.find("img").attr("alt")),e.img=c(i).on("load.mfploader",o).on("error.mfploader",n),i.src=e.src,s.is("img")&&(e.img=e.img.clone()),0<(i=e.img[0]).naturalWidth?e.hasSize=!0:i.width||(e.hasSize=!1)),m._parseMarkup(t,{title:function(e){if(e.data&&void 0!==e.data.title)return e.data.title;var t=m.st.image.titleSrc;if(t){if("function"==typeof t)return t.call(m,e);if(e.el)return e.el.attr(t)||""}return""}(e),img_replaceWith:e.img},e),m.resizeImage(),e.hasSize?(z&&clearInterval(z),e.loadError?(t.addClass("mfp-loading"),m.updateStatus("error",a.tError.replace("%url%",e.src))):(t.removeClass("mfp-loading"),m.updateStatus("ready"))):(m.updateStatus("loading"),e.loading=!0,e.hasSize||(e.imgHidden=!0,t.addClass("mfp-loading"),m.findImageSize(e))),t}}});function O(e){var t;m.currTemplate[L]&&(t=m.currTemplate[L].find("iframe")).length&&(e||(t[0].src="//about:blank"),m.isIE8)&&t.css("display",e?"block":"none")}function M(e){var t=m.items.length;return t-1<e?e-t:e<0?t+e:e}function D(e,t,n){return e.replace(/%curr%/gi,t+1).replace(/%total%/gi,n)}c.magnificPopup.registerModule("zoom",{options:{enabled:!1,easing:"ease-in-out",duration:300,opener:function(e){return e.is("img")?e:e.find("img")}},proto:{initZoom:function(){var e,t,n,o,i,r,a=m.st.zoom,s=".zoom";a.enabled&&m.supportsTransition&&(t=a.duration,n=function(e){var e=e.clone().removeAttr("style").removeAttr("class").addClass("mfp-animated-image"),t="all "+a.duration/1e3+"s "+a.easing,n={position:"fixed",zIndex:9999,left:0,top:0,"-webkit-backface-visibility":"hidden"},o="transition";return n["-webkit-"+o]=n["-moz-"+o]=n["-o-"+o]=n[o]=t,e.css(n),e},o=function(){m.content.css("visibility","visible")},d("BuildControls"+s,function(){m._allowZoom()&&(clearTimeout(i),m.content.css("visibility","hidden"),(e=m._getItemToZoom())?((r=n(e)).css(m._getOffset()),m.wrap.append(r),i=setTimeout(function(){r.css(m._getOffset(!0)),i=setTimeout(function(){o(),setTimeout(function(){r.remove(),e=r=null,u("ZoomAnimationEnded")},16)},t)},16)):o())}),d(F+s,function(){if(m._allowZoom()){if(clearTimeout(i),m.st.removalDelay=t,!e){if(!(e=m._getItemToZoom()))return;r=n(e)}r.css(m._getOffset(!0)),m.wrap.append(r),m.content.css("visibility","hidden"),setTimeout(function(){r.css(m._getOffset())},16)}}),d(w+s,function(){m._allowZoom()&&(o(),r&&r.remove(),e=null)}))},_allowZoom:function(){return"image"===m.currItem.type},_getItemToZoom:function(){return!!m.currItem.hasSize&&m.currItem.img},_getOffset:function(e){var e=e?m.currItem.img:m.st.zoom.opener(m.currItem.el||m.currItem),t=e.offset(),n=parseInt(e.css("padding-top"),10),o=parseInt(e.css("padding-bottom"),10),e=(t.top-=c(window).scrollTop()-n,{width:e.width(),height:(P?e.innerHeight():e[0].offsetHeight)-o-n});return(B=void 0===B?void 0!==document.createElement("p").style.MozTransform:B)?e["-moz-transform"]=e.transform="translate("+t.left+"px,"+t.top+"px)":(e.left=t.left,e.top=t.top),e}}});var B,L="iframe",H=(c.magnificPopup.registerModule(L,{options:{markup:'<div class="mfp-iframe-scaler"><div class="mfp-close"></div><iframe class="mfp-iframe" src="//about:blank" frameborder="0" allowfullscreen></iframe></div>',srcAction:"iframe_src",patterns:{youtube:{index:"youtube.com",id:"v=",src:"//www.youtube.com/embed/%id%?autoplay=1"},vimeo:{index:"vimeo.com/",id:"/",src:"//player.vimeo.com/video/%id%?autoplay=1"},gmaps:{index:"//maps.google.",src:"%id%&output=embed"}}},proto:{initIframe:function(){m.types.push(L),d("BeforeChange",function(e,t,n){t!==n&&(t===L?O():n===L&&O(!0))}),d(w+"."+L,function(){O()})},getIframe:function(e,t){var n=e.src,o=m.st.iframe,i=(c.each(o.patterns,function(){if(-1<n.indexOf(this.index))return this.id&&(n="string"==typeof this.id?n.substr(n.lastIndexOf(this.id)+this.id.length,n.length):this.id.call(this,n)),n=this.src.replace("%id%",n),!1}),{});return o.srcAction&&(i[o.srcAction]=n),m._parseMarkup(t,i,e),m.updateStatus("ready"),t}}}),c.magnificPopup.registerModule("gallery",{options:{enabled:!1,arrowMarkup:'<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>',preload:[0,2],navigateByImgClick:!0,arrows:!0,tPrev:"Previous (Left arrow key)",tNext:"Next (Right arrow key)",tCounter:"%curr% of %total%",langDir:null,loop:!0},proto:{initGallery:function(){var r=m.st.gallery,e=".mfp-gallery";if(m.direction=!0,!r||!r.enabled)return!1;r.langDir||(r.langDir=document.dir||"ltr"),h+=" mfp-gallery",d(b+e,function(){r.navigateByImgClick&&m.wrap.on("click"+e,".mfp-img",function(){if(1<m.items.length)return m.next(),!1}),g.on("keydown"+e,function(e){37===e.keyCode?"rtl"===r.langDir?m.next():m.prev():39===e.keyCode&&("rtl"===r.langDir?m.prev():m.next())}),m.updateGalleryButtons()}),d("UpdateStatus"+e,function(){m.updateGalleryButtons()}),d("UpdateStatus"+e,function(e,t){t.text&&(t.text=D(t.text,m.currItem.index,m.items.length))}),d(C+e,function(e,t,n,o){var i=m.items.length;n.counter=1<i?D(r.tCounter,o.index,i):""}),d("BuildControls"+e,function(){var e,t,n,o,i;1<m.items.length&&r.arrows&&!m.arrowLeft&&(t="rtl"===r.langDir?(o=r.tNext,e=r.tPrev,i="next","prev"):(o=r.tPrev,e=r.tNext,i="prev","next"),n=r.arrowMarkup,o=m.arrowLeft=c(n.replace(/%title%/gi,o).replace(/%action%/gi,i).replace(/%dir%/gi,"left")).addClass(k),i=m.arrowRight=c(n.replace(/%title%/gi,e).replace(/%action%/gi,t).replace(/%dir%/gi,"right")).addClass(k),"rtl"===r.langDir?(m.arrowNext=o,m.arrowPrev=i):(m.arrowNext=i,m.arrowPrev=o),o.on("click",function(){"rtl"===r.langDir?m.next():m.prev()}),i.on("click",function(){"rtl"===r.langDir?m.prev():m.next()}),m.container.append(o.add(i)))}),d(j+e,function(){m._preloadTimeout&&clearTimeout(m._preloadTimeout),m._preloadTimeout=setTimeout(function(){m.preloadNearbyImages(),m._preloadTimeout=null},16)}),d(w+e,function(){g.off(e),m.wrap.off("click"+e),m.arrowRight=m.arrowLeft=null})},next:function(){var e=M(m.index+1);if(!m.st.gallery.loop&&0===e)return!1;m.direction=!0,m.index=e,m.updateItemHTML()},prev:function(){var e=m.index-1;if(!m.st.gallery.loop&&e<0)return!1;m.direction=!1,m.index=M(e),m.updateItemHTML()},goTo:function(e){m.direction=e>=m.index,m.index=e,m.updateItemHTML()},preloadNearbyImages:function(){for(var e=m.st.gallery.preload,t=Math.min(e[0],m.items.length),n=Math.min(e[1],m.items.length),o=1;o<=(m.direction?n:t);o++)m._preloadItem(m.index+o);for(o=1;o<=(m.direction?t:n);o++)m._preloadItem(m.index-o)},_preloadItem:function(e){var t;e=M(e),m.items[e].preloaded||((t=m.items[e]).parsed||(t=m.parseEl(e)),u("LazyLoad",t),"image"===t.type&&(t.img=c('<img class="mfp-img" />').on("load.mfploader",function(){t.hasSize=!0}).on("error.mfploader",function(){t.hasSize=!0,t.loadError=!0,u("LazyLoadError",t)}).attr("src",t.src)),t.preloaded=!0)},updateGalleryButtons:function(){m.st.gallery.loop||"object"!=typeof m.arrowPrev||null===m.arrowPrev||(0===m.index?m.arrowPrev.hide():m.arrowPrev.show(),m.index===m.items.length-1?m.arrowNext.hide():m.arrowNext.show())}}}),"retina");c.magnificPopup.registerModule(H,{options:{replaceSrc:function(e){return e.src.replace(/\.\w+$/,function(e){return"@2x"+e})},ratio:1},proto:{initRetina:function(){var n,o;1<window.devicePixelRatio&&(n=m.st.retina,o=n.ratio,1<(o=isNaN(o)?o():o))&&(d("ImageHasSize."+H,function(e,t){t.img.css({"max-width":t.img[0].naturalWidth/o,width:"100%"})}),d("ElementParse."+H,function(e,t){t.src=n.replaceSrc(t,o)}))}}}),r()});
+;
+// Generated by CoffeeScript 1.7.1
+(function() {
+  var $, cardFromNumber, cardFromType, cards, defaultFormat, formatBackCardNumber, formatBackExpiry, formatCardNumber, formatExpiry, formatForwardExpiry, formatForwardSlashAndSpace, hasTextSelected, luhnCheck, reFormatCVC, reFormatCardNumber, reFormatExpiry, reFormatNumeric, replaceFullWidthChars, restrictCVC, restrictCardNumber, restrictExpiry, restrictNumeric, safeVal, setCardType,
+    __slice = [].slice,
+    __indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
+
+  $ = window.jQuery || window.Zepto || window.$;
+
+  $.payment = {};
+
+  $.payment.fn = {};
+
+  $.fn.payment = function() {
+    var args, method;
+    method = arguments[0], args = 2 <= arguments.length ? __slice.call(arguments, 1) : [];
+    return $.payment.fn[method].apply(this, args);
+  };
+
+  defaultFormat = /(\d{1,4})/g;
+
+  $.payment.cards = cards = [
+    {
+      type: 'visaelectron',
+      patterns: [4026, 417500, 4405, 4508, 4844, 4913, 4917],
+      format: defaultFormat,
+      length: [16],
+      cvcLength: [3],
+      luhn: true
+    }, {
+      type: 'maestro',
+      patterns: [5018, 502, 503, 56, 58, 639, 6220, 67],
+      format: defaultFormat,
+      length: [12, 13, 14, 15, 16, 17, 18, 19],
+      cvcLength: [3],
+      luhn: true
+    }, {
+      type: 'forbrugsforeningen',
+      patterns: [600],
+      format: defaultFormat,
+      length: [16],
+      cvcLength: [3],
+      luhn: true
+    }, {
+      type: 'dankort',
+      patterns: [5019],
+      format: defaultFormat,
+      length: [16],
+      cvcLength: [3],
+      luhn: true
+    }, {
+      type: 'visa',
+      patterns: [4],
+      format: defaultFormat,
+      length: [13, 16],
+      cvcLength: [3],
+      luhn: true
+    }, {
+      type: 'mastercard',
+      patterns: [51, 52, 53, 54, 55, 22, 23, 24, 25, 26, 27],
+      format: defaultFormat,
+      length: [16],
+      cvcLength: [3],
+      luhn: true
+    }, {
+      type: 'amex',
+      patterns: [34, 37],
+      format: /(\d{1,4})(\d{1,6})?(\d{1,5})?/,
+      length: [15],
+      cvcLength: [3, 4],
+      luhn: true
+    }, {
+      type: 'dinersclub',
+      patterns: [30, 36, 38, 39],
+      format: /(\d{1,4})(\d{1,6})?(\d{1,4})?/,
+      length: [14],
+      cvcLength: [3],
+      luhn: true
+    }, {
+      type: 'discover',
+      patterns: [60, 64, 65, 622],
+      format: defaultFormat,
+      length: [16],
+      cvcLength: [3],
+      luhn: true
+    }, {
+      type: 'unionpay',
+      patterns: [62, 88],
+      format: defaultFormat,
+      length: [16, 17, 18, 19],
+      cvcLength: [3],
+      luhn: false
+    }, {
+      type: 'jcb',
+      patterns: [35],
+      format: defaultFormat,
+      length: [16],
+      cvcLength: [3],
+      luhn: true
+    }
+  ];
+
+  cardFromNumber = function(num) {
+    var card, p, pattern, _i, _j, _len, _len1, _ref;
+    num = (num + '').replace(/\D/g, '');
+    for (_i = 0, _len = cards.length; _i < _len; _i++) {
+      card = cards[_i];
+      _ref = card.patterns;
+      for (_j = 0, _len1 = _ref.length; _j < _len1; _j++) {
+        pattern = _ref[_j];
+        p = pattern + '';
+        if (num.substr(0, p.length) === p) {
+          return card;
+        }
+      }
+    }
+  };
+
+  cardFromType = function(type) {
+    var card, _i, _len;
+    for (_i = 0, _len = cards.length; _i < _len; _i++) {
+      card = cards[_i];
+      if (card.type === type) {
+        return card;
+      }
+    }
+  };
+
+  luhnCheck = function(num) {
+    var digit, digits, odd, sum, _i, _len;
+    odd = true;
+    sum = 0;
+    digits = (num + '').split('').reverse();
+    for (_i = 0, _len = digits.length; _i < _len; _i++) {
+      digit = digits[_i];
+      digit = parseInt(digit, 10);
+      if ((odd = !odd)) {
+        digit *= 2;
+      }
+      if (digit > 9) {
+        digit -= 9;
+      }
+      sum += digit;
+    }
+    return sum % 10 === 0;
+  };
+
+  hasTextSelected = function($target) {
+    var _ref;
+    if (($target.prop('selectionStart') != null) && $target.prop('selectionStart') !== $target.prop('selectionEnd')) {
+      return true;
+    }
+    if ((typeof document !== "undefined" && document !== null ? (_ref = document.selection) != null ? _ref.createRange : void 0 : void 0) != null) {
+      if (document.selection.createRange().text) {
+        return true;
+      }
+    }
+    return false;
+  };
+
+  safeVal = function(value, $target) {
+    var cursor, error, last;
+    try {
+      cursor = $target.prop('selectionStart');
+    } catch (_error) {
+      error = _error;
+      cursor = null;
+    }
+    last = $target.val();
+    $target.val(value);
+    if (cursor !== null && $target.is(":focus")) {
+      if (cursor === last.length) {
+        cursor = value.length;
+      }
+      $target.prop('selectionStart', cursor);
+      return $target.prop('selectionEnd', cursor);
+    }
+  };
+
+  replaceFullWidthChars = function(str) {
+    var chars, chr, fullWidth, halfWidth, idx, value, _i, _len;
+    if (str == null) {
+      str = '';
+    }
+    fullWidth = '\uff10\uff11\uff12\uff13\uff14\uff15\uff16\uff17\uff18\uff19';
+    halfWidth = '0123456789';
+    value = '';
+    chars = str.split('');
+    for (_i = 0, _len = chars.length; _i < _len; _i++) {
+      chr = chars[_i];
+      idx = fullWidth.indexOf(chr);
+      if (idx > -1) {
+        chr = halfWidth[idx];
+      }
+      value += chr;
+    }
+    return value;
+  };
+
+  reFormatNumeric = function(e) {
+    var $target;
+    $target = $(e.currentTarget);
+    return setTimeout(function() {
+      var value;
+      value = $target.val();
+      value = replaceFullWidthChars(value);
+      value = value.replace(/\D/g, '');
+      return safeVal(value, $target);
+    });
+  };
+
+  reFormatCardNumber = function(e) {
+    var $target;
+    $target = $(e.currentTarget);
+    return setTimeout(function() {
+      var value;
+      value = $target.val();
+      value = replaceFullWidthChars(value);
+      value = $.payment.formatCardNumber(value);
+      return safeVal(value, $target);
+    });
+  };
+
+  formatCardNumber = function(e) {
+    var $target, card, digit, length, re, upperLength, value;
+    digit = String.fromCharCode(e.which);
+    if (!/^\d+$/.test(digit)) {
+      return;
+    }
+    $target = $(e.currentTarget);
+    value = $target.val();
+    card = cardFromNumber(value + digit);
+    length = (value.replace(/\D/g, '') + digit).length;
+    upperLength = 16;
+    if (card) {
+      upperLength = card.length[card.length.length - 1];
+    }
+    if (length >= upperLength) {
+      return;
+    }
+    if (($target.prop('selectionStart') != null) && $target.prop('selectionStart') !== value.length) {
+      return;
+    }
+    if (card && card.type === 'amex') {
+      re = /^(\d{4}|\d{4}\s\d{6})$/;
+    } else {
+      re = /(?:^|\s)(\d{4})$/;
+    }
+    if (re.test(value)) {
+      e.preventDefault();
+      return setTimeout(function() {
+        return $target.val(value + ' ' + digit);
+      });
+    } else if (re.test(value + digit)) {
+      e.preventDefault();
+      return setTimeout(function() {
+        return $target.val(value + digit + ' ');
+      });
+    }
+  };
+
+  formatBackCardNumber = function(e) {
+    var $target, value;
+    $target = $(e.currentTarget);
+    value = $target.val();
+    if (e.which !== 8) {
+      return;
+    }
+    if (($target.prop('selectionStart') != null) && $target.prop('selectionStart') !== value.length) {
+      return;
+    }
+    if (/\d\s$/.test(value)) {
+      e.preventDefault();
+      return setTimeout(function() {
+        return $target.val(value.replace(/\d\s$/, ''));
+      });
+    } else if (/\s\d?$/.test(value)) {
+      e.preventDefault();
+      return setTimeout(function() {
+        return $target.val(value.replace(/\d$/, ''));
+      });
+    }
+  };
+
+  reFormatExpiry = function(e) {
+    var $target;
+    $target = $(e.currentTarget);
+    return setTimeout(function() {
+      var value;
+      value = $target.val();
+      value = replaceFullWidthChars(value);
+      value = $.payment.formatExpiry(value);
+      return safeVal(value, $target);
+    });
+  };
+
+  formatExpiry = function(e) {
+    var $target, digit, val;
+    digit = String.fromCharCode(e.which);
+    if (!/^\d+$/.test(digit)) {
+      return;
+    }
+    $target = $(e.currentTarget);
+    val = $target.val() + digit;
+    if (/^\d$/.test(val) && (val !== '0' && val !== '1')) {
+      e.preventDefault();
+      return setTimeout(function() {
+        return $target.val("0" + val + " / ");
+      });
+    } else if (/^\d\d$/.test(val)) {
+      e.preventDefault();
+      return setTimeout(function() {
+        var m1, m2;
+        m1 = parseInt(val[0], 10);
+        m2 = parseInt(val[1], 10);
+        if (m2 > 2 && m1 !== 0) {
+          return $target.val("0" + m1 + " / " + m2);
+        } else {
+          return $target.val("" + val + " / ");
+        }
+      });
+    }
+  };
+
+  formatForwardExpiry = function(e) {
+    var $target, digit, val;
+    digit = String.fromCharCode(e.which);
+    if (!/^\d+$/.test(digit)) {
+      return;
+    }
+    $target = $(e.currentTarget);
+    val = $target.val();
+    if (/^\d\d$/.test(val)) {
+      return $target.val("" + val + " / ");
+    }
+  };
+
+  formatForwardSlashAndSpace = function(e) {
+    var $target, val, which;
+    which = String.fromCharCode(e.which);
+    if (!(which === '/' || which === ' ')) {
+      return;
+    }
+    $target = $(e.currentTarget);
+    val = $target.val();
+    if (/^\d$/.test(val) && val !== '0') {
+      return $target.val("0" + val + " / ");
+    }
+  };
+
+  formatBackExpiry = function(e) {
+    var $target, value;
+    $target = $(e.currentTarget);
+    value = $target.val();
+    if (e.which !== 8) {
+      return;
+    }
+    if (($target.prop('selectionStart') != null) && $target.prop('selectionStart') !== value.length) {
+      return;
+    }
+    if (/\d\s\/\s$/.test(value)) {
+      e.preventDefault();
+      return setTimeout(function() {
+        return $target.val(value.replace(/\d\s\/\s$/, ''));
+      });
+    }
+  };
+
+  reFormatCVC = function(e) {
+    var $target;
+    $target = $(e.currentTarget);
+    return setTimeout(function() {
+      var value;
+      value = $target.val();
+      value = replaceFullWidthChars(value);
+      value = value.replace(/\D/g, '').slice(0, 4);
+      return safeVal(value, $target);
+    });
+  };
+
+  restrictNumeric = function(e) {
+    var input;
+    if (e.metaKey || e.ctrlKey) {
+      return true;
+    }
+    if (e.which === 32) {
+      return false;
+    }
+    if (e.which === 0) {
+      return true;
+    }
+    if (e.which < 33) {
+      return true;
+    }
+    input = String.fromCharCode(e.which);
+    return !!/[\d\s]/.test(input);
+  };
+
+  restrictCardNumber = function(e) {
+    var $target, card, digit, value;
+    $target = $(e.currentTarget);
+    digit = String.fromCharCode(e.which);
+    if (!/^\d+$/.test(digit)) {
+      return;
+    }
+    if (hasTextSelected($target)) {
+      return;
+    }
+    value = ($target.val() + digit).replace(/\D/g, '');
+    card = cardFromNumber(value);
+    if (card) {
+      return value.length <= card.length[card.length.length - 1];
+    } else {
+      return value.length <= 16;
+    }
+  };
+
+  restrictExpiry = function(e) {
+    var $target, digit, value;
+    $target = $(e.currentTarget);
+    digit = String.fromCharCode(e.which);
+    if (!/^\d+$/.test(digit)) {
+      return;
+    }
+    if (hasTextSelected($target)) {
+      return;
+    }
+    value = $target.val() + digit;
+    value = value.replace(/\D/g, '');
+    if (value.length > 6) {
+      return false;
+    }
+  };
+
+  restrictCVC = function(e) {
+    var $target, digit, val;
+    $target = $(e.currentTarget);
+    digit = String.fromCharCode(e.which);
+    if (!/^\d+$/.test(digit)) {
+      return;
+    }
+    if (hasTextSelected($target)) {
+      return;
+    }
+    val = $target.val() + digit;
+    return val.length <= 4;
+  };
+
+  setCardType = function(e) {
+    var $target, allTypes, card, cardType, val;
+    $target = $(e.currentTarget);
+    val = $target.val();
+    cardType = $.payment.cardType(val) || 'unknown';
+    if (!$target.hasClass(cardType)) {
+      allTypes = (function() {
+        var _i, _len, _results;
+        _results = [];
+        for (_i = 0, _len = cards.length; _i < _len; _i++) {
+          card = cards[_i];
+          _results.push(card.type);
+        }
+        return _results;
+      })();
+      $target.removeClass('unknown');
+      $target.removeClass(allTypes.join(' '));
+      $target.addClass(cardType);
+      $target.toggleClass('identified', cardType !== 'unknown');
+      return $target.trigger('payment.cardType', cardType);
+    }
+  };
+
+  $.payment.fn.formatCardCVC = function() {
+    this.on('keypress', restrictNumeric);
+    this.on('keypress', restrictCVC);
+    this.on('paste', reFormatCVC);
+    this.on('change', reFormatCVC);
+    this.on('input', reFormatCVC);
+    return this;
+  };
+
+  $.payment.fn.formatCardExpiry = function() {
+    this.on('keypress', restrictNumeric);
+    this.on('keypress', restrictExpiry);
+    this.on('keypress', formatExpiry);
+    this.on('keypress', formatForwardSlashAndSpace);
+    this.on('keypress', formatForwardExpiry);
+    this.on('keydown', formatBackExpiry);
+    this.on('change', reFormatExpiry);
+    this.on('input', reFormatExpiry);
+    return this;
+  };
+
+  $.payment.fn.formatCardNumber = function() {
+    this.on('keypress', restrictNumeric);
+    this.on('keypress', restrictCardNumber);
+    this.on('keypress', formatCardNumber);
+    this.on('keydown', formatBackCardNumber);
+    this.on('keyup', setCardType);
+    this.on('paste', reFormatCardNumber);
+    this.on('change', reFormatCardNumber);
+    this.on('input', reFormatCardNumber);
+    this.on('input', setCardType);
+    return this;
+  };
+
+  $.payment.fn.restrictNumeric = function() {
+    this.on('keypress', restrictNumeric);
+    this.on('paste', reFormatNumeric);
+    this.on('change', reFormatNumeric);
+    this.on('input', reFormatNumeric);
+    return this;
+  };
+
+  $.payment.fn.cardExpiryVal = function() {
+    return $.payment.cardExpiryVal($(this).val());
+  };
+
+  $.payment.cardExpiryVal = function(value) {
+    var month, prefix, year, _ref;
+    _ref = value.split(/[\s\/]+/, 2), month = _ref[0], year = _ref[1];
+    if ((year != null ? year.length : void 0) === 2 && /^\d+$/.test(year)) {
+      prefix = (new Date).getFullYear();
+      prefix = prefix.toString().slice(0, 2);
+      year = prefix + year;
+    }
+    month = parseInt(month, 10);
+    year = parseInt(year, 10);
+    return {
+      month: month,
+      year: year
+    };
+  };
+
+  $.payment.validateCardNumber = function(num) {
+    var card, _ref;
+    num = (num + '').replace(/\s+|-/g, '');
+    if (!/^\d+$/.test(num)) {
+      return false;
+    }
+    card = cardFromNumber(num);
+    if (!card) {
+      return false;
+    }
+    return (_ref = num.length, __indexOf.call(card.length, _ref) >= 0) && (card.luhn === false || luhnCheck(num));
+  };
+
+  $.payment.validateCardExpiry = function(month, year) {
+    var currentTime, expiry, _ref;
+    if (typeof month === 'object' && 'month' in month) {
+      _ref = month, month = _ref.month, year = _ref.year;
+    }
+    if (!(month && year)) {
+      return false;
+    }
+    month = $.trim(month);
+    year = $.trim(year);
+    if (!/^\d+$/.test(month)) {
+      return false;
+    }
+    if (!/^\d+$/.test(year)) {
+      return false;
+    }
+    if (!((1 <= month && month <= 12))) {
+      return false;
+    }
+    if (year.length === 2) {
+      if (year < 70) {
+        year = "20" + year;
+      } else {
+        year = "19" + year;
+      }
+    }
+    if (year.length !== 4) {
+      return false;
+    }
+    expiry = new Date(year, month);
+    currentTime = new Date;
+    expiry.setMonth(expiry.getMonth() - 1);
+    expiry.setMonth(expiry.getMonth() + 1, 1);
+    return expiry > currentTime;
+  };
+
+  $.payment.validateCardCVC = function(cvc, type) {
+    var card, _ref;
+    cvc = $.trim(cvc);
+    if (!/^\d+$/.test(cvc)) {
+      return false;
+    }
+    card = cardFromType(type);
+    if (card != null) {
+      return _ref = cvc.length, __indexOf.call(card.cvcLength, _ref) >= 0;
+    } else {
+      return cvc.length >= 3 && cvc.length <= 4;
+    }
+  };
+
+  $.payment.cardType = function(num) {
+    var _ref;
+    if (!num) {
+      return null;
+    }
+    return ((_ref = cardFromNumber(num)) != null ? _ref.type : void 0) || null;
+  };
+
+  $.payment.formatCardNumber = function(num) {
+    var card, groups, upperLength, _ref;
+    num = num.replace(/\D/g, '');
+    card = cardFromNumber(num);
+    if (!card) {
+      return num;
+    }
+    upperLength = card.length[card.length.length - 1];
+    num = num.slice(0, upperLength);
+    if (card.format.global) {
+      return (_ref = num.match(card.format)) != null ? _ref.join(' ') : void 0;
+    } else {
+      groups = card.format.exec(num);
+      if (groups == null) {
+        return;
+      }
+      groups.shift();
+      groups = $.grep(groups, function(n) {
+        return n;
+      });
+      return groups.join(' ');
+    }
+  };
+
+  $.payment.formatExpiry = function(expiry) {
+    var mon, parts, sep, year;
+    parts = expiry.match(/^\D*(\d{1,2})(\D+)?(\d{1,4})?/);
+    if (!parts) {
+      return '';
+    }
+    mon = parts[1] || '';
+    sep = parts[2] || '';
+    year = parts[3] || '';
+    if (year.length > 0) {
+      sep = ' / ';
+    } else if (sep === ' /') {
+      mon = mon.substring(0, 1);
+      sep = '';
+    } else if (mon.length === 2 || sep.length > 0) {
+      sep = ' / ';
+    } else if (mon.length === 1 && (mon !== '0' && mon !== '1')) {
+      mon = "0" + mon;
+      sep = ' / ';
+    }
+    return mon + sep + year;
+  };
+
+}).call(this);
+;
+/** Some basic methods to validate form elements */
+var mpValidateEmail = function (email) {
+  //In case the email is not entered yet and is not required
+  if(!email || 0 === email.length) {
+    return true;
+  }
+
+  // https://stackoverflow.com/a/46181/6114835
+  // var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  var re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i; //Accepts unicode???
+  return re.test(email);
+
+  //OLD, but doesn't work super well
+  // var filter = /^[A-Z0-9._'%+-]+@[A-Z0-9.-]+\.[A-Z]{2,25}$/i;
+  // return filter.test(email);
+};
+
+var mpValidateUrl = function(url) {
+  var re = /(https?:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#()?&//=]*)/;
+  return re.test(url);
+};
+
+var mpValidateNotBlank = function(val) {
+  var str = val.trim();
+  return (str && str.length > 0);
+};
+
+var mpValidateFieldNotBlank = function($field) {
+  var notBlank = true;
+
+  if(!$field.is(':visible')) {
+    // Pass validation on fields that are not visible
+  }
+  else if ($field.is('input') || $field.is('select') && !$field.hasClass('mepr-multi-select-field') || $field.is('textarea')) {
+    notBlank = mpValidateNotBlank($field.val());
+  }
+  else if ($field.hasClass('mepr-checkbox-field')) {
+    notBlank = $field.find('input').is(':checked');
+  }
+  else if ($field.hasClass('mepr-radios-field') || $field.hasClass('mepr-checkboxes-field') || $field.hasClass('mepr-multi-select-field')) {
+    var input_vals = [];
+    var selector = $field.hasClass('mepr-multi-select-field') ? 'option:selected' : 'input:checked';
+
+    $field.find(selector).each(function (i, obj) {
+      input_vals.push(true);
+    });
+
+    notBlank = input_vals.length > 0;
+  }
+
+  return notBlank;
+};
+
+var mpToggleFieldValidation = function(field, valid) {
+  field.toggleClass('invalid', !valid);
+  field.toggleClass('valid', valid);
+
+  if(field.hasClass('mepr-password-confirm') || field.hasClass('mepr-password')) {
+    field.parent().prev('.mp-form-label').find('.cc-error').toggle(!valid);
+  } else {
+    field.prev('.mp-form-label').find('.cc-error').toggle(!valid);
+  }
+
+  if(field.hasClass('mepr-coupon-code') && valid) {
+    field.prev('.mp-form-label').find('.cc-success').toggle(valid);
+    setTimeout(function() {
+      field.prev('.mp-form-label').find('.cc-success').toggle(!valid);
+      field.removeClass('valid');
+    }, 2000);
+  }
+
+  if(field.hasClass('mepr-countries-dropdown')) {
+    field.closest('.mepr-form').find('.mepr_mepr-address-state .cc-error').toggle(!valid);
+  }
+
+  field.triggerHandler('mepr-validate-field', valid);
+  var form = field.closest('.mepr-form');
+
+  if (0 < form.find('.invalid').length) {
+    // Toggle CSS directly so we can ensure 'block' display
+    form.find('.mepr-form-has-errors').css('display','block');
+  } else {
+    form.find('.mepr-form-has-errors').css('display','none');
+  }
+};
+;
+var mepr_populate_states = function(obj) { (function($) {
+  var country = obj.val();
+  var form = obj.closest('.mepr-form');
+
+  if(form == undefined) { return; }
+
+  // Clean out all the options before re-populating
+  form.find('.mepr-states-dropdown option').remove();
+
+  var states_dropdown = form.find('.mepr-states-dropdown');
+  var states_text = form.find('.mepr-states-text');
+
+  // Ensure we've found a dropdown & text element
+  if (states_dropdown.length <= 0 || states_text.length <= 0) { return; }
+
+  // Grab fieldname and value
+  var fieldname = states_dropdown.data('fieldname');
+  var value = states_dropdown.data('value').toString();
+
+  if(fieldname == undefined || value == undefined) { return; }
+
+  // Clean up trailing whitespace
+  fieldname = fieldname.replace(/^\s+/,'');
+  fieldname = fieldname.replace(/\s+$/,'');
+  value = value.replace(/^\s+/,'');
+  value = value.replace(/\s+$/,'');
+
+  var required = !!obj.attr('required');
+
+  if (MeprI18n.states[country] !== undefined) {
+    states_dropdown.attr('name', fieldname);
+    states_dropdown.show();
+    states_text.removeAttr('name');
+    states_text.hide();
+    if (required) {
+      states_text.removeAttr('required');
+      states_dropdown.attr('required','');
+    }
+
+    states_dropdown.append('<option value="">' + MeprI18n.please_select_state + '</option>');
+
+    for (var st in MeprI18n.states[country]) {
+      var selected = (value===st ? ' selected="selected"' : '');
+      states_dropdown.append('<option value="' + st + '" ' + selected + '>' + MeprI18n.states[country][st] + '</option>');
+    }
+  }
+  else {
+    states_dropdown.removeAttr('name');
+    states_dropdown.hide();
+    states_text.attr('name', fieldname);
+    states_text.show();
+    if (required) {
+      states_dropdown.removeAttr('required');
+      states_text.attr('required','');
+    }
+  }
+})(jQuery)};
+
+var mepr_set_locate_inputs = function(country, state) { (function($) {
+  if(country !== '' && state !== '') {
+    // If the states are created for this country
+    // but the state is goofy then just blank it out
+    if(MeprI18n.states[country]!==undefined &&
+       MeprI18n.states[country][state]===undefined) {
+      state = '';
+    }
+  }
+
+  // Set the correct values for the country or state dropdowns
+  if ($('.mepr-form .mepr-countries-dropdown').length > 0) {
+    $.each($('.mepr-form .mepr-countries-dropdown'), function(i, obj) {
+      if($(obj).val()===undefined || $(obj).val()==='') {
+        $(obj).val(country);
+      }
+
+      mepr_populate_states($(obj));
+    });
+  }
+
+  // Set the states up properly where appropriate
+  if ($('.mepr-form .mepr-states-dropdown').length > 0) {
+    $.each($('.mepr-form .mepr-states-dropdown'), function(i, obj) {
+
+      if($(obj).data('value')===undefined || $(obj).data('value')==='') {
+        var options = $(obj).find('option');
+
+        $.each(options, function(i, option) {
+          if(state===option.value) {
+            $(obj).attr('data-value',state);
+            $(option).attr('selected','selected');
+            return false;
+          }
+        });
+      }
+
+    });
+  }
+
+  if ($('.mepr-form .mepr-geo-country').length > 0) {
+    $.each($('.mepr-form .mepr-geo-country'), function(i, obj) {
+      $(obj).val(country);
+    });
+  }
+
+  $('.mepr-form .mepr-countries-dropdown').trigger('mepr-geolocated');
+})(jQuery)};
+
+var mepr_ssl_geoip_services = {
+  // The services
+  caseproof: {
+    url:    'https://cspf-locate.herokuapp.com?callback=?',
+    cindex: 'country_code',
+    sindex: 'region_code',
+    used:   false,
+    type:   'jsonp',
+  },
+  //telize: { //TELIZE SHUT DOWN IN 2015
+  //  url:    'https://www.telize.com/geoip',
+  //  cindex: 'country_code',
+  //  sindex: 'region_code',
+  //  used: false,
+  //  type: 'json',
+  //},
+  //geoplugin: {
+  //  url:    'http://www.geoplugin.net/json.gp?jsoncallback=?',
+  //  cindex: 'geoplugin_countryCode',
+  //  sindex: 'geoplugin_regionCode',
+  //  used: false,
+  //  type: 'jsonp',
+  //},
+  //'ip-api': {
+  //  url:    'http://ip-api.com/json/?callback=?',
+  //  cindex: 'countryCode',
+  //  sindex: 'region',
+  //  used: false,
+  //  type: 'jsonp',
+  //},
+  //freegeoip: { //Dead - needs to use https://ipstack.com/ now
+  //  url:    'https://freegeoip.net/json/',
+  //  cindex: 'country_code',
+  //  sindex: 'region_code',
+  //  used: false,
+  //  type: 'json',
+  //}
+};
+
+var mepr_locate = function(source_key) { (function($) {
+  if(source_key==undefined) {
+    source_key = 'caseproof'; // default
+  }
+
+  source = mepr_ssl_geoip_services[source_key];
+
+  // If we've already used this source then assume we're out of choices
+  if(source.used===true) {
+    return mepr_set_locate_inputs('','');
+  }
+
+  $.ajax({
+    url: source.url,
+    method: 'GET',
+    timeout: 5000, // 5 seconds ... too much? too little?
+    dataType: source.type,
+  })
+  .done (function(data) {
+    var state   = ((data[source.sindex]!==undefined) ? data[source.sindex] : '');
+    var country = ((data[source.cindex]!==undefined) ? data[source.cindex] : '');
+
+    mepr_set_locate_inputs(country, state);
+  })
+  .fail (function() {
+    mepr_ssl_geoip_services[source_key].used=true;
+
+    for (var k in mepr_ssl_geoip_services) {
+      var next_source = mepr_ssl_geoip_services[k];
+
+      if(next_source.used===false) {
+        return mepr_locate(k);
+      }
+    }
+
+    mepr_set_locate_inputs('','');
+  });
+
+  return false;
+})(jQuery)};
+
+jQuery(document).ready(function($){
+  $.each($('.mepr-form .mepr-countries-dropdown'), function(i, obj) {
+    mepr_populate_states($(obj));
+    $(obj).on('change', function(e) {
+      mepr_populate_states($(obj));
+    });
+  });
+});
+;
+/*! jQuery UI - v1.13.3 - 2024-04-26
+* https://jqueryui.com
+* Includes: widget.js, position.js, data.js, disable-selection.js, effect.js, effects/effect-blind.js, effects/effect-bounce.js, effects/effect-clip.js, effects/effect-drop.js, effects/effect-explode.js, effects/effect-fade.js, effects/effect-fold.js, effects/effect-highlight.js, effects/effect-puff.js, effects/effect-pulsate.js, effects/effect-scale.js, effects/effect-shake.js, effects/effect-size.js, effects/effect-slide.js, effects/effect-transfer.js, focusable.js, form-reset-mixin.js, jquery-patch.js, keycode.js, labels.js, scroll-parent.js, tabbable.js, unique-id.js, widgets/accordion.js, widgets/autocomplete.js, widgets/button.js, widgets/checkboxradio.js, widgets/controlgroup.js, widgets/datepicker.js, widgets/dialog.js, widgets/draggable.js, widgets/droppable.js, widgets/menu.js, widgets/mouse.js, widgets/progressbar.js, widgets/resizable.js, widgets/selectable.js, widgets/selectmenu.js, widgets/slider.js, widgets/sortable.js, widgets/spinner.js, widgets/tabs.js, widgets/tooltip.js
+* Copyright jQuery Foundation and other contributors; Licensed MIT */
+!function(t){"use strict";"function"==typeof define&&define.amd?define(["jquery"],t):t(jQuery)}(function(x){"use strict";var t,e,i,n,W,C,o,s,r,l,a,h,u;function E(t,e,i){return[parseFloat(t[0])*(a.test(t[0])?e/100:1),parseFloat(t[1])*(a.test(t[1])?i/100:1)]}function L(t,e){return parseInt(x.css(t,e),10)||0}function N(t){return null!=t&&t===t.window}x.ui=x.ui||{},x.ui.version="1.13.3",
+/*!
+ * jQuery UI :data 1.13.3
+ * https://jqueryui.com
+ *
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license.
+ * https://jquery.org/license
+ */
+x.extend(x.expr.pseudos,{data:x.expr.createPseudo?x.expr.createPseudo(function(e){return function(t){return!!x.data(t,e)}}):function(t,e,i){return!!x.data(t,i[3])}}),
+/*!
+ * jQuery UI Disable Selection 1.13.3
+ * https://jqueryui.com
+ *
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license.
+ * https://jquery.org/license
+ */
+x.fn.extend({disableSelection:(t="onselectstart"in document.createElement("div")?"selectstart":"mousedown",function(){return this.on(t+".ui-disableSelection",function(t){t.preventDefault()})}),enableSelection:function(){return this.off(".ui-disableSelection")}}),
+/*!
+ * jQuery UI Focusable 1.13.3
+ * https://jqueryui.com
+ *
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license.
+ * https://jquery.org/license
+ */
+x.ui.focusable=function(t,e){var i,n,o,s=t.nodeName.toLowerCase();return"area"===s?(o=(i=t.parentNode).name,!(!t.href||!o||"map"!==i.nodeName.toLowerCase())&&0<(i=x("img[usemap='#"+o+"']")).length&&i.is(":visible")):(/^(input|select|textarea|button|object)$/.test(s)?(n=!t.disabled)&&(o=x(t).closest("fieldset")[0])&&(n=!o.disabled):n="a"===s&&t.href||e,n&&x(t).is(":visible")&&function(t){var e=t.css("visibility");for(;"inherit"===e;)t=t.parent(),e=t.css("visibility");return"visible"===e}(x(t)))},x.extend(x.expr.pseudos,{focusable:function(t){return x.ui.focusable(t,null!=x.attr(t,"tabindex"))}}),x.fn._form=function(){return"string"==typeof this[0].form?this.closest("form"):x(this[0].form)},
+/*!
+ * jQuery UI Form Reset Mixin 1.13.3
+ * https://jqueryui.com
+ *
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license.
+ * https://jquery.org/license
+ */
+x.ui.formResetMixin={_formResetHandler:function(){var e=x(this);setTimeout(function(){var t=e.data("ui-form-reset-instances");x.each(t,function(){this.refresh()})})},_bindFormResetHandler:function(){var t;this.form=this.element._form(),this.form.length&&((t=this.form.data("ui-form-reset-instances")||[]).length||this.form.on("reset.ui-form-reset",this._formResetHandler),t.push(this),this.form.data("ui-form-reset-instances",t))},_unbindFormResetHandler:function(){var t;this.form.length&&((t=this.form.data("ui-form-reset-instances")).splice(x.inArray(this,t),1),t.length?this.form.data("ui-form-reset-instances",t):this.form.removeData("ui-form-reset-instances").off("reset.ui-form-reset"))}},x.ui.ie=!!/msie [\w.]+/.exec(navigator.userAgent.toLowerCase()),
+/*!
+ * jQuery UI Support for jQuery core 1.8.x and newer 1.13.3
+ * https://jqueryui.com
+ *
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license.
+ * https://jquery.org/license
+ *
+ */
+x.expr.pseudos||(x.expr.pseudos=x.expr[":"]),x.uniqueSort||(x.uniqueSort=x.unique),x.escapeSelector||(e=/([\0-\x1f\x7f]|^-?\d)|^-$|[^\x80-\uFFFF\w-]/g,i=function(t,e){return e?"\0"===t?"�":t.slice(0,-1)+"\\"+t.charCodeAt(t.length-1).toString(16)+" ":"\\"+t},x.escapeSelector=function(t){return(t+"").replace(e,i)}),x.fn.even&&x.fn.odd||x.fn.extend({even:function(){return this.filter(function(t){return t%2==0})},odd:function(){return this.filter(function(t){return t%2==1})}}),
+/*!
+ * jQuery UI Keycode 1.13.3
+ * https://jqueryui.com
+ *
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license.
+ * https://jquery.org/license
+ */
+x.ui.keyCode={BACKSPACE:8,COMMA:188,DELETE:46,DOWN:40,END:35,ENTER:13,ESCAPE:27,HOME:36,LEFT:37,PAGE_DOWN:34,PAGE_UP:33,PERIOD:190,RIGHT:39,SPACE:32,TAB:9,UP:38},
+/*!
+ * jQuery UI Labels 1.13.3
+ * https://jqueryui.com
+ *
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license.
+ * https://jquery.org/license
+ */
+x.fn.labels=function(){var t,e,i;return this.length?this[0].labels&&this[0].labels.length?this.pushStack(this[0].labels):(e=this.eq(0).parents("label"),(t=this.attr("id"))&&(i=(i=this.eq(0).parents().last()).add((i.length?i:this).siblings()),t="label[for='"+x.escapeSelector(t)+"']",e=e.add(i.find(t).addBack(t))),this.pushStack(e)):this.pushStack([])},x.ui.plugin={add:function(t,e,i){var n,o=x.ui[t].prototype;for(n in i)o.plugins[n]=o.plugins[n]||[],o.plugins[n].push([e,i[n]])},call:function(t,e,i,n){var o,s=t.plugins[e];if(s&&(n||t.element[0].parentNode&&11!==t.element[0].parentNode.nodeType))for(o=0;o<s.length;o++)t.options[s[o][0]]&&s[o][1].apply(t.element,i)}},
+/*!
+ * jQuery UI Position 1.13.3
+ * https://jqueryui.com
+ *
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license.
+ * https://jquery.org/license
+ *
+ * https://api.jqueryui.com/position/
+ */
+W=Math.max,C=Math.abs,o=/left|center|right/,s=/top|center|bottom/,r=/[\+\-]\d+(\.[\d]+)?%?/,l=/^\w+/,a=/%$/,h=x.fn.position,x.position={scrollbarWidth:function(){var t,e,i;return void 0!==n?n:(i=(e=x("<div style='display:block;position:absolute;width:200px;height:200px;overflow:hidden;'><div style='height:300px;width:auto;'></div></div>")).children()[0],x("body").append(e),t=i.offsetWidth,e.css("overflow","scroll"),t===(i=i.offsetWidth)&&(i=e[0].clientWidth),e.remove(),n=t-i)},getScrollInfo:function(t){var e=t.isWindow||t.isDocument?"":t.element.css("overflow-x"),i=t.isWindow||t.isDocument?"":t.element.css("overflow-y"),e="scroll"===e||"auto"===e&&t.width<t.element[0].scrollWidth;return{width:"scroll"===i||"auto"===i&&t.height<t.element[0].scrollHeight?x.position.scrollbarWidth():0,height:e?x.position.scrollbarWidth():0}},getWithinInfo:function(t){var e=x(t||window),i=N(e[0]),n=!!e[0]&&9===e[0].nodeType;return{element:e,isWindow:i,isDocument:n,offset:!i&&!n?x(t).offset():{left:0,top:0},scrollLeft:e.scrollLeft(),scrollTop:e.scrollTop(),width:e.outerWidth(),height:e.outerHeight()}}},x.fn.position=function(f){var c,d,p,g,m,v,y,w,b,_,t,e;return f&&f.of?(v="string"==typeof(f=x.extend({},f)).of?x(document).find(f.of):x(f.of),y=x.position.getWithinInfo(f.within),w=x.position.getScrollInfo(y),b=(f.collision||"flip").split(" "),_={},e=9===(e=(t=v)[0]).nodeType?{width:t.width(),height:t.height(),offset:{top:0,left:0}}:N(e)?{width:t.width(),height:t.height(),offset:{top:t.scrollTop(),left:t.scrollLeft()}}:e.preventDefault?{width:0,height:0,offset:{top:e.pageY,left:e.pageX}}:{width:t.outerWidth(),height:t.outerHeight(),offset:t.offset()},v[0].preventDefault&&(f.at="left top"),d=e.width,p=e.height,m=x.extend({},g=e.offset),x.each(["my","at"],function(){var t,e,i=(f[this]||"").split(" ");(i=1===i.length?o.test(i[0])?i.concat(["center"]):s.test(i[0])?["center"].concat(i):["center","center"]:i)[0]=o.test(i[0])?i[0]:"center",i[1]=s.test(i[1])?i[1]:"center",t=r.exec(i[0]),e=r.exec(i[1]),_[this]=[t?t[0]:0,e?e[0]:0],f[this]=[l.exec(i[0])[0],l.exec(i[1])[0]]}),1===b.length&&(b[1]=b[0]),"right"===f.at[0]?m.left+=d:"center"===f.at[0]&&(m.left+=d/2),"bottom"===f.at[1]?m.top+=p:"center"===f.at[1]&&(m.top+=p/2),c=E(_.at,d,p),m.left+=c[0],m.top+=c[1],this.each(function(){var i,t,r=x(this),l=r.outerWidth(),a=r.outerHeight(),e=L(this,"marginLeft"),n=L(this,"marginTop"),o=l+e+L(this,"marginRight")+w.width,s=a+n+L(this,"marginBottom")+w.height,h=x.extend({},m),u=E(_.my,r.outerWidth(),r.outerHeight());"right"===f.my[0]?h.left-=l:"center"===f.my[0]&&(h.left-=l/2),"bottom"===f.my[1]?h.top-=a:"center"===f.my[1]&&(h.top-=a/2),h.left+=u[0],h.top+=u[1],i={marginLeft:e,marginTop:n},x.each(["left","top"],function(t,e){x.ui.position[b[t]]&&x.ui.position[b[t]][e](h,{targetWidth:d,targetHeight:p,elemWidth:l,elemHeight:a,collisionPosition:i,collisionWidth:o,collisionHeight:s,offset:[c[0]+u[0],c[1]+u[1]],my:f.my,at:f.at,within:y,elem:r})}),f.using&&(t=function(t){var e=g.left-h.left,i=e+d-l,n=g.top-h.top,o=n+p-a,s={target:{element:v,left:g.left,top:g.top,width:d,height:p},element:{element:r,left:h.left,top:h.top,width:l,height:a},horizontal:i<0?"left":0<e?"right":"center",vertical:o<0?"top":0<n?"bottom":"middle"};d<l&&C(e+i)<d&&(s.horizontal="center"),p<a&&C(n+o)<p&&(s.vertical="middle"),W(C(e),C(i))>W(C(n),C(o))?s.important="horizontal":s.important="vertical",f.using.call(this,t,s)}),r.offset(x.extend(h,{using:t}))})):h.apply(this,arguments)},x.ui.position={fit:{left:function(t,e){var i,n=e.within,o=n.isWindow?n.scrollLeft:n.offset.left,n=n.width,s=t.left-e.collisionPosition.marginLeft,r=o-s,l=s+e.collisionWidth-n-o;n<e.collisionWidth?0<r&&l<=0?(i=t.left+r+e.collisionWidth-n-o,t.left+=r-i):t.left=!(0<l&&r<=0)&&l<r?o+n-e.collisionWidth:o:0<r?t.left+=r:0<l?t.left-=l:t.left=W(t.left-s,t.left)},top:function(t,e){var i,n=e.within,n=n.isWindow?n.scrollTop:n.offset.top,o=e.within.height,s=t.top-e.collisionPosition.marginTop,r=n-s,l=s+e.collisionHeight-o-n;o<e.collisionHeight?0<r&&l<=0?(i=t.top+r+e.collisionHeight-o-n,t.top+=r-i):t.top=!(0<l&&r<=0)&&l<r?n+o-e.collisionHeight:n:0<r?t.top+=r:0<l?t.top-=l:t.top=W(t.top-s,t.top)}},flip:{left:function(t,e){var i=e.within,n=i.offset.left+i.scrollLeft,o=i.width,i=i.isWindow?i.scrollLeft:i.offset.left,s=t.left-e.collisionPosition.marginLeft,r=s-i,s=s+e.collisionWidth-o-i,l="left"===e.my[0]?-e.elemWidth:"right"===e.my[0]?e.elemWidth:0,a="left"===e.at[0]?e.targetWidth:"right"===e.at[0]?-e.targetWidth:0,h=-2*e.offset[0];r<0?((o=t.left+l+a+h+e.collisionWidth-o-n)<0||o<C(r))&&(t.left+=l+a+h):0<s&&(0<(n=t.left-e.collisionPosition.marginLeft+l+a+h-i)||C(n)<s)&&(t.left+=l+a+h)},top:function(t,e){var i=e.within,n=i.offset.top+i.scrollTop,o=i.height,i=i.isWindow?i.scrollTop:i.offset.top,s=t.top-e.collisionPosition.marginTop,r=s-i,s=s+e.collisionHeight-o-i,l="top"===e.my[1]?-e.elemHeight:"bottom"===e.my[1]?e.elemHeight:0,a="top"===e.at[1]?e.targetHeight:"bottom"===e.at[1]?-e.targetHeight:0,h=-2*e.offset[1];r<0?((o=t.top+l+a+h+e.collisionHeight-o-n)<0||o<C(r))&&(t.top+=l+a+h):0<s&&(0<(n=t.top-e.collisionPosition.marginTop+l+a+h-i)||C(n)<s)&&(t.top+=l+a+h)}},flipfit:{left:function(){x.ui.position.flip.left.apply(this,arguments),x.ui.position.fit.left.apply(this,arguments)},top:function(){x.ui.position.flip.top.apply(this,arguments),x.ui.position.fit.top.apply(this,arguments)}}},x.ui.safeActiveElement=function(e){var i;try{i=e.activeElement}catch(t){i=e.body}return i=(i=i||e.body).nodeName?i:e.body},x.ui.safeBlur=function(t){t&&"body"!==t.nodeName.toLowerCase()&&x(t).trigger("blur")},
+/*!
+ * jQuery UI Scroll Parent 1.13.3
+ * https://jqueryui.com
+ *
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license.
+ * https://jquery.org/license
+ */
+x.fn.scrollParent=function(t){var e=this.css("position"),i="absolute"===e,n=t?/(auto|scroll|hidden)/:/(auto|scroll)/,t=this.parents().filter(function(){var t=x(this);return(!i||"static"!==t.css("position"))&&n.test(t.css("overflow")+t.css("overflow-y")+t.css("overflow-x"))}).eq(0);return"fixed"!==e&&t.length?t:x(this[0].ownerDocument||document)},
+/*!
+ * jQuery UI Tabbable 1.13.3
+ * https://jqueryui.com
+ *
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license.
+ * https://jquery.org/license
+ */
+x.extend(x.expr.pseudos,{tabbable:function(t){var e=x.attr(t,"tabindex"),i=null!=e;return(!i||0<=e)&&x.ui.focusable(t,i)}}),
+/*!
+ * jQuery UI Unique ID 1.13.3
+ * https://jqueryui.com
+ *
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license.
+ * https://jquery.org/license
+ */
+x.fn.extend({uniqueId:(u=0,function(){return this.each(function(){this.id||(this.id="ui-id-"+ ++u)})}),removeUniqueId:function(){return this.each(function(){/^ui-id-\d+$/.test(this.id)&&x(this).removeAttr("id")})}});
+/*!
+ * jQuery UI Widget 1.13.3
+ * https://jqueryui.com
+ *
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license.
+ * https://jquery.org/license
+ */
+var f,c=0,d=Array.prototype.hasOwnProperty,p=Array.prototype.slice;x.cleanData=(f=x.cleanData,function(t){for(var e,i,n=0;null!=(i=t[n]);n++)(e=x._data(i,"events"))&&e.remove&&x(i).triggerHandler("remove");f(t)}),x.widget=function(t,i,e){var n,o,s,r={},l=t.split(".")[0],a=l+"-"+(t=t.split(".")[1]);return e||(e=i,i=x.Widget),Array.isArray(e)&&(e=x.extend.apply(null,[{}].concat(e))),x.expr.pseudos[a.toLowerCase()]=function(t){return!!x.data(t,a)},x[l]=x[l]||{},n=x[l][t],o=x[l][t]=function(t,e){if(!this||!this._createWidget)return new o(t,e);arguments.length&&this._createWidget(t,e)},x.extend(o,n,{version:e.version,_proto:x.extend({},e),_childConstructors:[]}),(s=new i).options=x.widget.extend({},s.options),x.each(e,function(e,n){function o(){return i.prototype[e].apply(this,arguments)}function s(t){return i.prototype[e].apply(this,t)}r[e]="function"!=typeof n?n:function(){var t,e=this._super,i=this._superApply;return this._super=o,this._superApply=s,t=n.apply(this,arguments),this._super=e,this._superApply=i,t}}),o.prototype=x.widget.extend(s,{widgetEventPrefix:n&&s.widgetEventPrefix||t},r,{constructor:o,namespace:l,widgetName:t,widgetFullName:a}),n?(x.each(n._childConstructors,function(t,e){var i=e.prototype;x.widget(i.namespace+"."+i.widgetName,o,e._proto)}),delete n._childConstructors):i._childConstructors.push(o),x.widget.bridge(t,o),o},x.widget.extend=function(t){for(var e,i,n=p.call(arguments,1),o=0,s=n.length;o<s;o++)for(e in n[o])i=n[o][e],d.call(n[o],e)&&void 0!==i&&(x.isPlainObject(i)?t[e]=x.isPlainObject(t[e])?x.widget.extend({},t[e],i):x.widget.extend({},i):t[e]=i);return t},x.widget.bridge=function(s,e){var r=e.prototype.widgetFullName||s;x.fn[s]=function(i){var t="string"==typeof i,n=p.call(arguments,1),o=this;return t?this.length||"instance"!==i?this.each(function(){var t,e=x.data(this,r);return"instance"===i?(o=e,!1):e?"function"!=typeof e[i]||"_"===i.charAt(0)?x.error("no such method '"+i+"' for "+s+" widget instance"):(t=e[i].apply(e,n))!==e&&void 0!==t?(o=t&&t.jquery?o.pushStack(t.get()):t,!1):void 0:x.error("cannot call methods on "+s+" prior to initialization; attempted to call method '"+i+"'")}):o=void 0:(n.length&&(i=x.widget.extend.apply(null,[i].concat(n))),this.each(function(){var t=x.data(this,r);t?(t.option(i||{}),t._init&&t._init()):x.data(this,r,new e(i,this))})),o}},x.Widget=function(){},x.Widget._childConstructors=[],x.Widget.prototype={widgetName:"widget",widgetEventPrefix:"",defaultElement:"<div>",options:{classes:{},disabled:!1,create:null},_createWidget:function(t,e){e=x(e||this.defaultElement||this)[0],this.element=x(e),this.uuid=c++,this.eventNamespace="."+this.widgetName+this.uuid,this.bindings=x(),this.hoverable=x(),this.focusable=x(),this.classesElementLookup={},e!==this&&(x.data(e,this.widgetFullName,this),this._on(!0,this.element,{remove:function(t){t.target===e&&this.destroy()}}),this.document=x(e.style?e.ownerDocument:e.document||e),this.window=x(this.document[0].defaultView||this.document[0].parentWindow)),this.options=x.widget.extend({},this.options,this._getCreateOptions(),t),this._create(),this.options.disabled&&this._setOptionDisabled(this.options.disabled),this._trigger("create",null,this._getCreateEventData()),this._init()},_getCreateOptions:function(){return{}},_getCreateEventData:x.noop,_create:x.noop,_init:x.noop,destroy:function(){var i=this;this._destroy(),x.each(this.classesElementLookup,function(t,e){i._removeClass(e,t)}),this.element.off(this.eventNamespace).removeData(this.widgetFullName),this.widget().off(this.eventNamespace).removeAttr("aria-disabled"),this.bindings.off(this.eventNamespace)},_destroy:x.noop,widget:function(){return this.element},option:function(t,e){var i,n,o,s=t;if(0===arguments.length)return x.widget.extend({},this.options);if("string"==typeof t)if(s={},t=(i=t.split(".")).shift(),i.length){for(n=s[t]=x.widget.extend({},this.options[t]),o=0;o<i.length-1;o++)n[i[o]]=n[i[o]]||{},n=n[i[o]];if(t=i.pop(),1===arguments.length)return void 0===n[t]?null:n[t];n[t]=e}else{if(1===arguments.length)return void 0===this.options[t]?null:this.options[t];s[t]=e}return this._setOptions(s),this},_setOptions:function(t){for(var e in t)this._setOption(e,t[e]);return this},_setOption:function(t,e){return"classes"===t&&this._setOptionClasses(e),this.options[t]=e,"disabled"===t&&this._setOptionDisabled(e),this},_setOptionClasses:function(t){var e,i,n;for(e in t)n=this.classesElementLookup[e],t[e]!==this.options.classes[e]&&n&&n.length&&(i=x(n.get()),this._removeClass(n,e),i.addClass(this._classes({element:i,keys:e,classes:t,add:!0})))},_setOptionDisabled:function(t){this._toggleClass(this.widget(),this.widgetFullName+"-disabled",null,!!t),t&&(this._removeClass(this.hoverable,null,"ui-state-hover"),this._removeClass(this.focusable,null,"ui-state-focus"))},enable:function(){return this._setOptions({disabled:!1})},disable:function(){return this._setOptions({disabled:!0})},_classes:function(o){var s=[],r=this;function t(t,e){for(var i,n=0;n<t.length;n++)i=r.classesElementLookup[t[n]]||x(),i=o.add?(function(){var i=[];o.element.each(function(t,e){x.map(r.classesElementLookup,function(t){return t}).some(function(t){return t.is(e)})||i.push(e)}),r._on(x(i),{remove:"_untrackClassesElement"})}(),x(x.uniqueSort(i.get().concat(o.element.get())))):x(i.not(o.element).get()),r.classesElementLookup[t[n]]=i,s.push(t[n]),e&&o.classes[t[n]]&&s.push(o.classes[t[n]])}return(o=x.extend({element:this.element,classes:this.options.classes||{}},o)).keys&&t(o.keys.match(/\S+/g)||[],!0),o.extra&&t(o.extra.match(/\S+/g)||[]),s.join(" ")},_untrackClassesElement:function(i){var n=this;x.each(n.classesElementLookup,function(t,e){-1!==x.inArray(i.target,e)&&(n.classesElementLookup[t]=x(e.not(i.target).get()))}),this._off(x(i.target))},_removeClass:function(t,e,i){return this._toggleClass(t,e,i,!1)},_addClass:function(t,e,i){return this._toggleClass(t,e,i,!0)},_toggleClass:function(t,e,i,n){var o="string"==typeof t||null===t,e={extra:o?e:i,keys:o?t:e,element:o?this.element:t,add:n="boolean"==typeof n?n:i};return e.element.toggleClass(this._classes(e),n),this},_on:function(o,s,t){var r,l=this;"boolean"!=typeof o&&(t=s,s=o,o=!1),t?(s=r=x(s),this.bindings=this.bindings.add(s)):(t=s,s=this.element,r=this.widget()),x.each(t,function(t,e){function i(){if(o||!0!==l.options.disabled&&!x(this).hasClass("ui-state-disabled"))return("string"==typeof e?l[e]:e).apply(l,arguments)}"string"!=typeof e&&(i.guid=e.guid=e.guid||i.guid||x.guid++);var t=t.match(/^([\w:-]*)\s*(.*)$/),n=t[1]+l.eventNamespace,t=t[2];t?r.on(n,t,i):s.on(n,i)})},_off:function(t,e){e=(e||"").split(" ").join(this.eventNamespace+" ")+this.eventNamespace,t.off(e),this.bindings=x(this.bindings.not(t).get()),this.focusable=x(this.focusable.not(t).get()),this.hoverable=x(this.hoverable.not(t).get())},_delay:function(t,e){var i=this;return setTimeout(function(){return("string"==typeof t?i[t]:t).apply(i,arguments)},e||0)},_hoverable:function(t){this.hoverable=this.hoverable.add(t),this._on(t,{mouseenter:function(t){this._addClass(x(t.currentTarget),null,"ui-state-hover")},mouseleave:function(t){this._removeClass(x(t.currentTarget),null,"ui-state-hover")}})},_focusable:function(t){this.focusable=this.focusable.add(t),this._on(t,{focusin:function(t){this._addClass(x(t.currentTarget),null,"ui-state-focus")},focusout:function(t){this._removeClass(x(t.currentTarget),null,"ui-state-focus")}})},_trigger:function(t,e,i){var n,o,s=this.options[t];if(i=i||{},(e=x.Event(e)).type=(t===this.widgetEventPrefix?t:this.widgetEventPrefix+t).toLowerCase(),e.target=this.element[0],o=e.originalEvent)for(n in o)n in e||(e[n]=o[n]);return this.element.trigger(e,i),!("function"==typeof s&&!1===s.apply(this.element[0],[e].concat(i))||e.isDefaultPrevented())}},x.each({show:"fadeIn",hide:"fadeOut"},function(s,r){x.Widget.prototype["_"+s]=function(e,t,i){var n,o=(t="string"==typeof t?{effect:t}:t)?!0!==t&&"number"!=typeof t&&t.effect||r:s;"number"==typeof(t=t||{})?t={duration:t}:!0===t&&(t={}),n=!x.isEmptyObject(t),t.complete=i,t.delay&&e.delay(t.delay),n&&x.effects&&x.effects.effect[o]?e[s](t):o!==s&&e[o]?e[o](t.duration,t.easing,i):e.queue(function(t){x(this)[s](),i&&i.call(e[0]),t()})}})});;
