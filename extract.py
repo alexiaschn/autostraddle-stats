@@ -17,11 +17,10 @@ month_order = {
     "winter": 1, "spring": 4, "summer": 7, "fall": 10
 }
 
+done_extracted = [file.split('/')[-1][:-4] for file in glob.glob('autostraddle-stats/extracted-data/*.txt')]
 
-
-with open('autostraddle-stats/data.csv', 'r', encoding='utf-8') as f:
+with open('autostraddle-stats/data1.csv', 'r', encoding='utf-8') as f:
     done = [line.split(',')[0] for line in f]
-    print(done)
 
 def get_tv_guides_months(): 
     with open("autostraddle-stats/src/TV Lists _ Autostraddle_complete.html", "r", encoding="utf-8") as f:
@@ -51,7 +50,7 @@ def extract_month_year(file):
         return file, name, year, month
         
 
-def extract_data(file, name, year, month ):   
+def extract_data(file, name, year, month):   
     comment = ''          
     with open(file, 'r', encoding='utf-8') as f:
         soup = BeautifulSoup(f, 'html.parser')
@@ -59,31 +58,32 @@ def extract_data(file, name, year, month ):
         tags = soup.find_all(['strong'])
         # Filter tags whose text does NOT match the exclusion pattern 
         filtered_tags = [tag for tag in tags if tag.get_text(strip=True) and pattern.match(tag.get_text(strip=True))]
-        counts = len(filtered_tags)
 
-    if counts < 5 or counts > 40:        
-        with open(f'autostraddle-stats/manual_check/{name}.html', 'w', encoding='utf-8') as g2, \
-            open(file, 'r', encoding='utf-8') as f:
-            content = f.read()
-            g2.write(content)
-            comment = 'outlier'
+    # if name not in done_extracted:
+    #     with open(f'autostraddle-stats/extracted_data/{name}.txt', 'w', encoding='utf-8') as f:
+    #         for tag in filtered_tags:
+    #             print(tag.text)
+    #             f.write(tag.text + '\n')
+
+def count_clean(file, name, year, month):
+    with open(file, 'r', encoding='utf-8') as f:
+        counts = len([line for line in f])
     if name not in done: 
-        print(name)
-        with open('autostraddle-stats/data.csv', 'a', newline='', encoding='utf-8') as g: 
+        with open('autostraddle-stats/data1.csv', 'a', newline='', encoding='utf-8') as g: 
             writer = csv.writer(g)
-            writer.writerow([name, year, month, counts, comment])
+            writer.writerow([name, year, month, counts])
 
 # couldn't be bothered with plt: thanks Mistral AI
 # Define the order of months and seasons for sorting
 # Chargement des données
 def quantification():
     data = []
-    with open('autostraddle-stats/data.csv', 'r', encoding='utf-8') as g:
+    with open('autostraddle-stats/data1.csv', 'r', encoding='utf-8') as g:
         reader = csv.reader(g)
         next(reader)  # Skip header
         for line in reader:
-            if len(line) >= 4:
-                title, year, month, count, comment = line
+            try:
+                title, year, month, count = line
                 month_num = month_order.get(month.lower(), 0)
                 data.append({
                     'Title': title, 
@@ -92,6 +92,10 @@ def quantification():
                     'MonthNum': month_num, 
                     'Count': int(count)
                 })
+            except ValueError:
+                print(line)
+                break
+                
 
     # Tri des données
     data.sort(key=lambda x: (x['Year'], x['MonthNum']))
@@ -113,12 +117,19 @@ def visualisation(df):
 
 
 if __name__ == '__main__':
-    files = glob.glob("autostraddle-stats/data/*")
-    for file in files:
-        file, name, year, month = extract_month_year(file)
-        if year != None:
-            extract_data(file, name, year, month )
-        else:
-            print(name+'\n')
+    # files = glob.glob("autostraddle-stats/data/*")
+    # for file in files:
+    #     if file.split('/')[-1][:-5] not in done:
+    #         file, name, year, month = extract_month_year(file)
+    #         if year != None:
+    #             # extract_data(file, name, year, month )
+    #             try:
+    #                 extracted_data_file = f'autostraddle-stats/extracted_data/{file.split('/')[-1][:-4]}txt'
+    #                 count_clean(extracted_data_file, name, year, month)
+    #             except FileNotFoundError:
+    #                 continue
+            # else:
+            #     print(name+'\n')            
     df = quantification()
     visualisation(df)
+
