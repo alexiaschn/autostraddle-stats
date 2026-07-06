@@ -1,0 +1,329 @@
+[
+   {
+      "Title": "*Faking It Season 2B",
+      "Year": null
+   },
+   {
+      "Title": "*Gotham Season Two",
+      "Year": null
+   },
+   {
+      "Title": "Supergirl",
+      "Year": "2015\u20132021",
+      "Rated": "TV-PG",
+      "Released": "26 Oct 2015",
+      "Runtime": "43 min",
+      "Genre": "Action, Adventure, Drama",
+      "Director": "N/A",
+      "Writer": "Ali Adler, Greg Berlanti, Andrew Kreisberg",
+      "Actors": "Melissa Benoist, Chyler Leigh, David Harewood",
+      "Plot": "The adventures of Superman's cousin and her own superhero career.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "15 wins & 52 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZGM4MzY3NzYtYjViZS00MmE4LTgxZmMtNTZkNDM5MDIwMDg1XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.2/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.2",
+      "imdbVotes": "134,338",
+      "imdbID": "tt4016454",
+      "Type": "series",
+      "totalSeasons": "6",
+      "Response": "True"
+   },
+   {
+      "Title": "*Jane The Virgin Season Two",
+      "Year": null
+   },
+   {
+      "Title": "Crazy Ex-Girlfriend",
+      "Year": "2015\u20132019",
+      "Rated": "TV-14",
+      "Released": "12 Oct 2015",
+      "Runtime": "2 min",
+      "Genre": "Comedy, Musical",
+      "Director": "N/A",
+      "Writer": "Rachel Bloom, Aline Brosh McKenna",
+      "Actors": "Rachel Bloom, Donna Lynne Champlin, Vincent Rodriguez III",
+      "Plot": "A young woman abandons a choice job at a law firm and her life in New York in an attempt to find happiness in the unlikely locale of West Covina, California.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 4 Primetime Emmys. 16 wins & 35 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjVjM2Y3YzctYzQwMi00OTY2LWEyMjMtODdkZmZiMWQxM2M4XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.9/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.9",
+      "imdbVotes": "23,612",
+      "imdbID": "tt4094300",
+      "Type": "series",
+      "totalSeasons": "4",
+      "Response": "True"
+   },
+   {
+      "Title": "Grandfathered",
+      "Year": "2015\u20132016",
+      "Rated": "TV-14",
+      "Released": "29 Sep 2015",
+      "Runtime": "22 min",
+      "Genre": "Comedy",
+      "Director": "N/A",
+      "Writer": "Daniel Chun",
+      "Actors": "John Stamos, Paget Brewster, Josh Peck",
+      "Plot": "A confirmed bachelor discovers that he's a dad--and a grandfather.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "1 win & 2 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzY3MjE5MzYxMl5BMl5BanBnXkFtZTgwNzUzMjU1NjE@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.9/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.9",
+      "imdbVotes": "6,760",
+      "imdbID": "tt4465368",
+      "Type": "series",
+      "totalSeasons": "1",
+      "Response": "True"
+   },
+   {
+      "Title": "Scream Queens",
+      "Year": "2015\u20132016",
+      "Rated": "TV-14",
+      "Released": "22 Sep 2015",
+      "Runtime": "45 min",
+      "Genre": "Comedy, Horror, Mystery",
+      "Director": "N/A",
+      "Writer": "Ian Brennan, Brad Falchuk, Ryan Murphy",
+      "Actors": "Emma Roberts, Lea Michele, Abigail Breslin",
+      "Plot": "A semi-anthology series that centers on characters being terrorized by a serial killer in different locations, including a university and a hospital.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "4 wins & 20 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOWFiODAyODctNThhZC00OGZmLTgzYzItMWU5ODgxNDEyNmM0XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.1/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.1",
+      "imdbVotes": "49,562",
+      "imdbID": "tt4145384",
+      "Type": "series",
+      "totalSeasons": "2",
+      "Response": "True"
+   },
+   {
+      "Title": "The Muppets",
+      "Year": "2011",
+      "Rated": "PG",
+      "Released": "23 Nov 2011",
+      "Runtime": "103 min",
+      "Genre": "Adventure, Comedy, Family",
+      "Director": "James Bobin",
+      "Writer": "Jason Segel, Nicholas Stoller, Jim Henson",
+      "Actors": "Amy Adams, Jason Segel, Chris Cooper",
+      "Plot": "A Muppet fanatic with some help from his 2 human compatriots must regroup the Muppet gang to stop an avaricious oil mogul from taking down one of their precious life-longing treasures.",
+      "Language": "English, Mandarin",
+      "Country": "United States, Japan, United Kingdom",
+      "Awards": "Won 1 Oscar. 18 wins & 43 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjE0MTM4NTc3NF5BMl5BanBnXkFtZTcwMjYzOTIxNg@@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.1/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "95%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "75/100"
+         }
+      ],
+      "Metascore": "75",
+      "imdbRating": "7.1",
+      "imdbVotes": "99,159",
+      "imdbID": "tt1204342",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$88,631,237",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "*Fresh Off The Boat Season Two",
+      "Year": null
+   },
+   {
+      "Title": "*The People\u2019s Couch\u00a0Season Four",
+      "Year": null
+   },
+   {
+      "Title": "Best Time Ever with Neil Patrick Harris",
+      "Year": "2015",
+      "Rated": "TV-PG",
+      "Released": "15 Sep 2015",
+      "Runtime": "60 min",
+      "Genre": "Comedy, Musical, Talk-Show",
+      "Director": "N/A",
+      "Writer": "N/A",
+      "Actors": "Neil Patrick Harris, Nicole Scherzinger, Nathaniel Motulsky",
+      "Plot": "A variety show starring Neil Patrick Harris. Inspired by the U.K. program \"Ant and Dec's Saturday Night Takeaway.\"",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjIxNDE1NDQ5M15BMl5BanBnXkFtZTgwODI2ODQ2NjE@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.2/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.2",
+      "imdbVotes": "1,249",
+      "imdbID": "tt4181268",
+      "Type": "series",
+      "totalSeasons": "1",
+      "Response": "True"
+   },
+   {
+      "Title": "The Mindy Project",
+      "Year": "2012\u20132017",
+      "Rated": "TV-14",
+      "Released": "25 Sep 2012",
+      "Runtime": "30 min",
+      "Genre": "Comedy",
+      "Director": "N/A",
+      "Writer": "Mindy Kaling",
+      "Actors": "Mindy Kaling, Ike Barinholtz, Ed Weeks",
+      "Plot": "A young Ob/Gyn doctor balances her personal and professional life, surrounded by quirky co-workers in a small office.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Nominated for 1 Primetime Emmy. 8 wins & 26 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTQwNjgwOTczOF5BMl5BanBnXkFtZTcwMDQzOTEzOA@@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.5/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.5",
+      "imdbVotes": "36,043",
+      "imdbID": "tt2211129",
+      "Type": "series",
+      "totalSeasons": "6",
+      "Response": "True"
+   },
+   {
+      "Title": "*Arrow Season Four",
+      "Year": null
+   },
+   {
+      "Title": "*Empire Season Two",
+      "Year": null
+   },
+   {
+      "Title": "Rosewood",
+      "Year": "2015\u20132017",
+      "Rated": "TV-14",
+      "Released": "23 Sep 2015",
+      "Runtime": "42 min",
+      "Genre": "Crime, Drama, Mystery",
+      "Director": "N/A",
+      "Writer": "Todd Harthan",
+      "Actors": "Morris Chestnut, Jaina Lee Ortiz, Gabrielle Dennis",
+      "Plot": "Miami pathologist Dr. Beaumont Rosewood, Jr. finds secrets in people's bodies using his state-of-the-art laboratory equipment.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "7 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjM3MzA4MjU4OV5BMl5BanBnXkFtZTgwODI0NzQ1NjE@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.8/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.8",
+      "imdbVotes": "9,635",
+      "imdbID": "tt4465472",
+      "Type": "series",
+      "totalSeasons": "2",
+      "Response": "True"
+   },
+   {
+      "Title": "Criminal Minds - Season 11: Criminology: Inner Beauty",
+      "Year": "2016",
+      "Rated": "N/A",
+      "Released": "30 Aug 2016",
+      "Runtime": "3 min",
+      "Genre": "Short",
+      "Director": "N/A",
+      "Writer": "N/A",
+      "Actors": "N/A",
+      "Plot": "Behind-the-scenes special featurette looking at the making of the episode 'Inner Beauty\" of Criminal Minds season 11.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "N/A",
+      "Poster": "N/A",
+      "Ratings": [],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "imdbID": "tt6057094",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "American Horror Story Hotel After Show",
+      "Year": "2015\u2013",
+      "Rated": "N/A",
+      "Released": "08 Oct 2015",
+      "Runtime": "N/A",
+      "Genre": "Talk-Show",
+      "Director": "N/A",
+      "Writer": "N/A",
+      "Actors": "Xavier Brinkman, Kristin Carole",
+      "Plot": "N/A",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "N/A",
+      "Poster": "N/A",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.5/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.5",
+      "imdbVotes": "26",
+      "imdbID": "tt5615372",
+      "Type": "series",
+      "totalSeasons": "N/A",
+      "Response": "True"
+   }
+]

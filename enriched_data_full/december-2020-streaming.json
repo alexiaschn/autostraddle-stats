@@ -1,0 +1,442 @@
+[
+   {
+      "Title": "The Prom",
+      "Year": "2020",
+      "Rated": "PG-13",
+      "Released": "11 Dec 2020",
+      "Runtime": "130 min",
+      "Genre": "Comedy, Drama, Musical",
+      "Director": "Ryan Murphy",
+      "Writer": "Bob Martin, Chad Beguelin, Matthew Sklar",
+      "Actors": "Meryl Streep, James Corden, Nicole Kidman",
+      "Plot": "A troupe of hilariously self-obsessed theater stars swarm into a small conservative Indiana town in support of a high-school girl who wants to take her girlfriend to the prom.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "5 wins & 29 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BY2ViN2NkY2QtNTU2Yy00MjE0LTgxZWEtMmNmYTZmOTU4ODJjXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "5.9/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "54%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "55/100"
+         }
+      ],
+      "Metascore": "55",
+      "imdbRating": "5.9",
+      "imdbVotes": "30,095",
+      "imdbID": "tt10161886",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Tiny Pretty Things: Season One",
+      "Year": "2020-12-14",
+      "Genre": [
+         "Drama",
+         "Romance",
+         "Mystery"
+      ]
+   },
+   {
+      "Title": "Anitta: Made in Honório",
+      "Year": "2020",
+      "Rated": "TV-MA",
+      "Released": "16 Dec 2020",
+      "Runtime": "N/A",
+      "Genre": "Documentary, Biography, Music",
+      "Director": "N/A",
+      "Writer": "N/A",
+      "Actors": "Anitta, Lauren McFall, Arielle Macedo",
+      "Plot": "In this intimate documentary, Brazilian pop queen Anitta opens up about fame, family and her fierce work ethic, revealing the woman behind the hits.",
+      "Language": "Portuguese",
+      "Country": "Brazil",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYmFlOTRkODAtMjUxZi00NzkzLThlZjEtODhhNGE4NThmNzYxXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.8/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.8",
+      "imdbVotes": "468",
+      "imdbID": "tt13486136",
+      "Type": "series",
+      "totalSeasons": "1",
+      "Response": "True"
+   },
+   {
+      "Title": "Ma Rainey's Black Bottom",
+      "Year": "2020",
+      "Rated": "R",
+      "Released": "18 Dec 2020",
+      "Runtime": "94 min",
+      "Genre": "Drama, Music",
+      "Director": "George C. Wolfe",
+      "Writer": "Ruben Santiago-Hudson, August Wilson",
+      "Actors": "Viola Davis, Chadwick Boseman, Glynn Turman",
+      "Plot": "Tensions rise when trailblazing blues singer Ma Rainey and her band gather at a recording studio in Chicago in 1927.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 2 Oscars. 83 wins & 192 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOWIzMTAyZGMtZTIzZi00YTc4LTlmNGEtMzMxYTgzYWM5ODM3XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.9/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "97%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "87/100"
+         }
+      ],
+      "Metascore": "87",
+      "imdbRating": "6.9",
+      "imdbVotes": "77,154",
+      "imdbID": "tt10514222",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Bridgerton: Season One",
+      "Year": "2020-12-25",
+      "Genre": [
+         "Drama",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "The Con is On",
+      "Year": "2018",
+      "Rated": "R",
+      "Released": "25 May 2018",
+      "Runtime": "95 min",
+      "Genre": "Comedy, Crime",
+      "Director": "James Oakley",
+      "Writer": "James Oakley, Alex Michaelides",
+      "Actors": "Dot Cosgrove, Uma Thurman, Tim Roth",
+      "Plot": "In an effort to avoid paying off a massive gambling debt to a notorious mobster in England, a couple flee to Los Angeles and hatch a jewel theft plot.",
+      "Language": "English, Spanish, Japanese, Russian, Chinese",
+      "Country": "United Kingdom, United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDFmYmIyNzEtOWVjYi00N2JhLTlkY2ItYWE2MmMwODJjNzJlXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "3.8/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "0%"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "3.8",
+      "imdbVotes": "8,943",
+      "imdbID": "tt4685806",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Dare Me: Season 1",
+      "Year": "2019-12-29",
+      "Genre": [
+         "Drama",
+         "Sports"
+      ]
+   },
+   {
+      "Title": "Chilling Adventures of Sabrina: Season 2, Part 4",
+      "Year": null
+   },
+   {
+      "Title": "Under the Tuscan Sun",
+      "Year": "2003",
+      "Rated": "PG-13",
+      "Released": "26 Sep 2003",
+      "Runtime": "113 min",
+      "Genre": "Comedy, Drama, Romance",
+      "Director": "Audrey Wells",
+      "Writer": "Frances Mayes, Audrey Wells",
+      "Actors": "Diane Lane, Raoul Bova, Sandra Oh",
+      "Plot": "Frances Mayes, a 35-year-old San Francisco writer, gets a divorce that leaves her with terminal writer's block and depression. Later, she decides to buy a house in Tuscany in order to change her life.",
+      "Language": "English, Italian, Polish, French, Spanish, German",
+      "Country": "United States, Italy",
+      "Awards": "5 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZGIxZTY1ODktM2E3Yi00ZmQxLWI1ZjctNmVkYWQ0MTExMDBlXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.8/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "62%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "52/100"
+         }
+      ],
+      "Metascore": "52",
+      "imdbRating": "6.8",
+      "imdbVotes": "64,390",
+      "imdbID": "tt0328589",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$43,610,723",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Nurses: Season 1 Premiere",
+      "Year": "2020-01-06",
+      "Genre": [
+         "Drama",
+         "Medical"
+      ]
+   },
+   {
+      "Title": "Letterkenny: Season 9",
+      "Year": "2016-02-07",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "A League of Their Own",
+      "Year": "1992",
+      "Rated": "PG",
+      "Released": "01 Jul 1992",
+      "Runtime": "128 min",
+      "Genre": "Comedy, Drama, Sport",
+      "Director": "Penny Marshall",
+      "Writer": "Kim Wilson, Kelly Candaele, Lowell Ganz",
+      "Actors": "Tom Hanks, Geena Davis, Lori Petty",
+      "Plot": "During World War II, sisters Dottie and Kit join the first female professional baseball league and struggle to help it succeed amid their own growing rivalry.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "7 wins & 13 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDgwZDJjNWQtMzBmNi00ZTNkLTk5NGQtMzE2ODJkZjUyYjRhXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.4/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "82%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "69/100"
+         }
+      ],
+      "Metascore": "69",
+      "imdbRating": "7.4",
+      "imdbVotes": "129,657",
+      "imdbID": "tt0104694",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$107,533,928",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "The Wilds: Season One",
+      "Year": "2020-12-11",
+      "Genre": [
+         "Drama",
+         "Thriller",
+         "Mystery"
+      ]
+   },
+   {
+      "Title": "Blackbird",
+      "Year": "2019",
+      "Rated": "R",
+      "Released": "18 Sep 2020",
+      "Runtime": "97 min",
+      "Genre": "Drama",
+      "Director": "Roger Michell",
+      "Writer": "Christian Torpe",
+      "Actors": "Sam Neill, Susan Sarandon, Anson Boon",
+      "Plot": "A terminally ill mother arranges to bring her family together one last time before she dies. A remake of the 2014 Danish film 'Silent Heart'.",
+      "Language": "English",
+      "Country": "United States, United Kingdom",
+      "Awards": "1 win & 1 nomination total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjMyNjMxYjUtZjQ2ZC00YzNlLWE1ZjItMTk3NzYxYmE5NzRmXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.6/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "64%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "53/100"
+         }
+      ],
+      "Metascore": "53",
+      "imdbRating": "6.6",
+      "imdbVotes": "6,596",
+      "imdbID": "tt8717446",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Stylish with Jenna Lyons",
+      "Year": "2020",
+      "Rated": "TV-MA",
+      "Released": "03 Dec 2020",
+      "Runtime": "1 min",
+      "Genre": "Reality-TV",
+      "Director": "N/A",
+      "Writer": "N/A",
+      "Actors": "Kyle DeFord, Sarah Kate Price, Jenna Lyons",
+      "Plot": "After twenty plus years as a designer, creative director and president of J.Crew, Jenna Lyons sets out to create an new, undefined style juggernaut that tackles fashion, home design and entertaining. A series of tests and practica...",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTdkMGFkNTUtOTdlMy00MTJjLWE3MTUtOGJiMmEzNjdkZjlmXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.2/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.2",
+      "imdbVotes": "113",
+      "imdbID": "tt13143332",
+      "Type": "series",
+      "totalSeasons": "1",
+      "Response": "True"
+   },
+   {
+      "Title": "Euphoria Special Episode",
+      "Year": "2019-06-16",
+      "Genre": [
+         "Drama",
+         "Crime",
+         "Thriller"
+      ]
+   },
+   {
+      "Title": "Let Them All Talk",
+      "Year": "2020",
+      "Rated": "R",
+      "Released": "10 Dec 2020",
+      "Runtime": "113 min",
+      "Genre": "Comedy, Drama",
+      "Director": "Steven Soderbergh",
+      "Writer": "Deborah Eisenberg",
+      "Actors": "Meryl Streep, Gemma Chan, Dianne Wiest",
+      "Plot": "A famous author goes on a cruise trip with her friends and nephew in an effort to find fun and happiness while she comes to terms with her troubled past.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "1 win & 5 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZjY1MTY1YzktMjc0Zi00ZDU1LThiMGEtODFkZDc4YmIxODAyXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.1/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "87%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "72/100"
+         }
+      ],
+      "Metascore": "72",
+      "imdbRating": "6.1",
+      "imdbVotes": "13,669",
+      "imdbID": "tt10808832",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Homeschool Musical 2020",
+      "Year": null
+   },
+   {
+      "Title": "Wonder Woman 1984",
+      "Year": "2020",
+      "Rated": "PG-13",
+      "Released": "25 Dec 2020",
+      "Runtime": "151 min",
+      "Genre": "Action, Adventure, Fantasy",
+      "Director": "Patty Jenkins",
+      "Writer": "Patty Jenkins, Geoff Johns, Dave Callaham",
+      "Actors": "Gal Gadot, Chris Pine, Kristen Wiig",
+      "Plot": "Wonder Woman finds herself battling two opponents, Maxwell Lord, a shrewd entrepreneur, and Barbara Minerva, a friend-turned-foe. Meanwhile, she also ends up crossing paths with her love interest.",
+      "Language": "English, Arabic, Russian, Mandarin",
+      "Country": "United States",
+      "Awards": "24 wins & 48 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTdkYjI0M2ItMmUxZi00YjU1LTgwM2ItODgxNDY0ODZhZDQzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "5.3/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "57%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "60/100"
+         }
+      ],
+      "Metascore": "60",
+      "imdbRating": "5.3",
+      "imdbVotes": "310,651",
+      "imdbID": "tt7126948",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$46,801,036",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   }
+]

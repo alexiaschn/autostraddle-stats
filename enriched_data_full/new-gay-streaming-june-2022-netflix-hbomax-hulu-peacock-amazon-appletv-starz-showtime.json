@@ -1,0 +1,318 @@
+[
+   {
+      "Title": "Stand Out: An LGBTQ+ Celebration",
+      "Year": null
+   },
+   {
+      "Title": "First Kill: Season One",
+      "Year": "2022-06-10",
+      "Genre": [
+         "Horror",
+         "Romance",
+         "Supernatural"
+      ]
+   },
+   {
+      "Title": "Vice",
+      "Year": "2013-04-05",
+      "Genre": [
+         "Drama",
+         "Crime"
+      ]
+   },
+   {
+      "Title": "Jane Fonda & Lily Tomlin: Ladies Night Live",
+      "Year": null
+   },
+   {
+      "Title": "Iron Chef: Quest For An Iron Legend",
+      "Year": "2022-06-15",
+      "Genre": [
+         "Food"
+      ]
+   },
+   {
+      "Title": "Dead End: Paranormal Park",
+      "Year": "2022-06-16",
+      "Genre": [
+         "Comedy",
+         "Adventure",
+         "Supernatural"
+      ]
+   },
+   {
+      "Title": "Umbrella Academy: Season 3",
+      "Year": "2019-02-15",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "Charmed",
+      "Year": "1998-10-07",
+      "Genre": [
+         "Drama",
+         "Romance",
+         "Supernatural"
+      ]
+   },
+   {
+      "Title": "Grey's Anatomy",
+      "Year": "2005–",
+      "Rated": "TV-14",
+      "Released": "27 Mar 2005",
+      "Runtime": "41 min",
+      "Genre": "Drama, Romance",
+      "Director": "N/A",
+      "Writer": "Shonda Rhimes",
+      "Actors": "Ellen Pompeo, Chandra Wilson, James Pickens Jr.",
+      "Plot": "A drama centered on the personal and professional lives of five surgical interns and their supervisors.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 4 Primetime Emmys. 90 wins & 253 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTVjNWVhYTctMGJkMS00NWFjLWE2N2QtNmQ1Y2FhZDFkNzUwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.6/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.6",
+      "imdbVotes": "373,275",
+      "imdbID": "tt0413573",
+      "Type": "series",
+      "totalSeasons": "22",
+      "Response": "True"
+   },
+   {
+      "Title": "Beauty",
+      "Year": "2026-01-21",
+      "Genre": [
+         "Horror",
+         "Science-Fiction",
+         "Thriller"
+      ]
+   },
+   {
+      "Title": "But I’m a Cheerleader",
+      "Year": "1999"
+   },
+   {
+      "Title": "The Kids Are All Right",
+      "Year": "2008-04-12",
+      "Genre": [
+         "Family"
+      ]
+   },
+   {
+      "Title": "Pitch Perfect",
+      "Year": "2021-09-27",
+      "Genre": [
+         "Travel"
+      ]
+   },
+   {
+      "Title": "Pride",
+      "Year": "2019-06-01",
+      "Genre": []
+   },
+   {
+      "Title": "Queer as Folk UK",
+      "Year": null
+   },
+   {
+      "Title": "Queer as Folk: Season 1, Episodes 1",
+      "Year": null
+   },
+   {
+      "Title": "Rutherford Falls: Season 2",
+      "Year": "2021-04-22",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "Pride",
+      "Year": "2019-06-01",
+      "Genre": []
+   },
+   {
+      "Title": "How to Survive a Plague",
+      "Year": "2012"
+   },
+   {
+      "Title": "Life Partners",
+      "Year": "2014"
+   },
+   {
+      "Title": "Naomi",
+      "Year": "2022-01-11",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Adventure"
+      ]
+   },
+   {
+      "Title": "Irma Vep: Limited Series Premiere",
+      "Year": "2022-06-06",
+      "Genre": [
+         "Drama",
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "The Janes",
+      "Year": "2014-10-13",
+      "Genre": [
+         "Drama",
+         "Crime",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "Summer Camp Island: Season 6 Premiere",
+      "Year": "2018-07-07",
+      "Genre": [
+         "Comedy",
+         "Adventure",
+         "Fantasy"
+      ]
+   },
+   {
+      "Title": "Westworld: Season 4 Premiere",
+      "Year": "2016-10-02",
+      "Genre": [
+         "Drama",
+         "Science-Fiction",
+         "Western"
+      ]
+   },
+   {
+      "Title": "Glee",
+      "Year": "2009-05-19",
+      "Genre": [
+         "Drama",
+         "Music",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "Fire Island",
+      "Year": "2017-04-21",
+      "Genre": [
+         "Romance"
+      ]
+   },
+   {
+      "Title": "Vida: Seasons 1",
+      "Year": "2018-05-06",
+      "Genre": [
+         "Drama"
+      ]
+   },
+   {
+      "Title": "The Los Angeles Pride Parade",
+      "Year": null
+   },
+   {
+      "Title": "Love, Victor: Season 3 Complete Series",
+      "Year": "2020-06-17",
+      "Genre": [
+         "Drama",
+         "Comedy",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "NYC Pride March Livestream",
+      "Year": null
+   },
+   {
+      "Title": "Wildhood",
+      "Year": "2026-07-06",
+      "Genre": [
+         "Comedy",
+         "Anime",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "Only Murders in the Building: Season 2 Premiere",
+      "Year": "2021-08-31",
+      "Genre": [
+         "Comedy",
+         "Crime",
+         "Mystery"
+      ]
+   },
+   {
+      "Title": "Black Swan",
+      "Year": "2024-05-28",
+      "Genre": []
+   },
+   {
+      "Title": "The Boys: Season 3",
+      "Year": "2019-07-26",
+      "Genre": [
+         "Action",
+         "Fantasy",
+         "Adult"
+      ]
+   },
+   {
+      "Title": "Fairfax: Season 2",
+      "Year": "2021-10-29",
+      "Genre": [
+         "Comedy",
+         "Adventure"
+      ]
+   },
+   {
+      "Title": "For All Mankind: Season 3 Premiere",
+      "Year": "2019-11-01",
+      "Genre": [
+         "Drama",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "Loot: Season One Premiere",
+      "Year": "2022-06-24",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "The Book of Queer: Limited Series Premiere",
+      "Year": "2022-06-02",
+      "Genre": []
+   },
+   {
+      "Title": "P",
+      "Year": "2020-07-12",
+      "Genre": [
+         "Drama",
+         "Crime"
+      ]
+   },
+   {
+      "Title": "The Chi: Season 5 Premiere",
+      "Year": "2018-01-07",
+      "Genre": [
+         "Drama"
+      ]
+   },
+   {
+      "Title": "Slo Pitch: Season 2 Premiere",
+      "Year": null,
+      "Genre": [
+         "Drama",
+         "Comedy",
+         "Sports"
+      ]
+   }
+]

@@ -1,0 +1,305 @@
+[
+   {
+      "Title": "Carnival Row",
+      "Year": "2019-08-30",
+      "Genre": [
+         "Drama",
+         "Fantasy",
+         "Horror"
+      ]
+   },
+   {
+      "Title": "Steven Universe: The Movie",
+      "Year": null
+   },
+   {
+      "Title": "The Deuce",
+      "Year": "2017-09-10",
+      "Genre": [
+         "Drama",
+         "Crime"
+      ]
+   },
+   {
+      "Title": "Mr. Mercedes",
+      "Year": "2017-08-09",
+      "Genre": [
+         "Drama",
+         "Crime",
+         "Thriller"
+      ]
+   },
+   {
+      "Title": "American Horror Story: 1984",
+      "Year": null
+   },
+   {
+      "Title": "The Good Place",
+      "Year": "2016-09-19",
+      "Genre": [
+         "Comedy",
+         "Fantasy",
+         "Supernatural"
+      ]
+   },
+   {
+      "Title": "9",
+      "Year": null,
+      "Genre": [
+         "Adventure",
+         "Fantasy"
+      ]
+   },
+   {
+      "Title": "NCIS: New Orleans",
+      "Year": "2014-09-23",
+      "Genre": [
+         "Drama",
+         "Crime"
+      ]
+   },
+   {
+      "Title": "Good Doctor",
+      "Year": "2013-08-05",
+      "Genre": [
+         "Drama",
+         "Romance",
+         "Medical"
+      ]
+   },
+   {
+      "Title": "This is Us",
+      "Year": "2016-09-20",
+      "Genre": [
+         "Drama",
+         "Comedy",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "Chicago Fire",
+      "Year": "2012-10-10",
+      "Genre": [
+         "Drama",
+         "Action"
+      ]
+   },
+   {
+      "Title": "Stumptown",
+      "Year": "2019-09-25",
+      "Genre": [
+         "Drama",
+         "Crime"
+      ]
+   },
+   {
+      "Title": "Grey’s Anatomy",
+      "Year": "2005-03-27",
+      "Genre": [
+         "Drama",
+         "Romance",
+         "Medical"
+      ]
+   },
+   {
+      "Title": "Sunnyside",
+      "Year": "2015-01-08",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "How to Get Away With Murder",
+      "Year": "2014-09-25",
+      "Genre": [
+         "Drama",
+         "Thriller",
+         "Legal"
+      ]
+   },
+   {
+      "Title": "Transparent",
+      "Year": "2014-09-26",
+      "Genre": [
+         "Drama",
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "American Housewife",
+      "Year": "2016-10-11",
+      "Genre": [
+         "Comedy",
+         "Family"
+      ]
+   },
+   {
+      "Title": "The Politician",
+      "Year": "2019-09-27",
+      "Genre": [
+         "Drama",
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "God Friended Me",
+      "Year": "2018-09-30",
+      "Genre": [
+         "Drama",
+         "Family",
+         "Mystery"
+      ]
+   },
+   {
+      "Title": "Almost Family",
+      "Year": "2019-10-02",
+      "Genre": [
+         "Drama",
+         "Comedy",
+         "Family"
+      ]
+   },
+   {
+      "Title": "S.W.A.T.",
+      "Year": "2017-11-02",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Crime"
+      ]
+   },
+   {
+      "Title": "Batwoman",
+      "Year": "2019-10-06",
+      "Genre": [
+         "Drama",
+         "Crime",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "Supergirl",
+      "Year": "2015-10-26",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "All",
+      "Year": "2018-10-10",
+      "Genre": [
+         "Drama",
+         "Sports"
+      ]
+   },
+   {
+      "Title": "Black Lightning",
+      "Year": "2018-01-16",
+      "Genre": [
+         "Drama",
+         "Crime",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "Riverdale",
+      "Year": "2017-01-26",
+      "Genre": [
+         "Drama",
+         "Crime",
+         "Mystery"
+      ]
+   },
+   {
+      "Title": "Legacies",
+      "Year": "2018-10-25",
+      "Genre": [
+         "Drama",
+         "Romance",
+         "Supernatural"
+      ]
+   },
+   {
+      "Title": "Charmed",
+      "Year": "1998-10-07",
+      "Genre": [
+         "Drama",
+         "Romance",
+         "Supernatural"
+      ]
+   },
+   {
+      "Title": "The Read",
+      "Year": "2022-04-10",
+      "Genre": [
+         "Drama"
+      ]
+   },
+   {
+      "Title": "Letterkenny",
+      "Year": "2016-02-07",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "Mrs. Fletcher",
+      "Year": "2019-10-27",
+      "Genre": [
+         "Drama",
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "Dickinson",
+      "Year": "2019-11-01",
+      "Genre": [
+         "Drama",
+         "Comedy",
+         "History"
+      ]
+   },
+   {
+      "Title": "Shameless",
+      "Year": "2011-01-09",
+      "Genre": [
+         "Drama",
+         "Comedy",
+         "Family"
+      ]
+   },
+   {
+      "Title": "The Marvelous Mrs. Maisel",
+      "Year": "2017-03-17",
+      "Genre": [
+         "Drama",
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "The L Word: Generation Q",
+      "Year": "2019-12-08",
+      "Genre": [
+         "Drama",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "Work In Progress",
+      "Year": "2019-12-08",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "Marvel’s Runaways",
+      "Year": "2017-11-21",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Science-Fiction"
+      ]
+   }
+]

@@ -1,0 +1,756 @@
+[
+   {
+      "Title": "The Purge",
+      "Year": "2013",
+      "Rated": "R",
+      "Released": "07 Jun 2013",
+      "Runtime": "85 min",
+      "Genre": "Horror, Sci-Fi, Thriller",
+      "Director": "James DeMonaco",
+      "Writer": "James DeMonaco",
+      "Actors": "Ethan Hawke, Lena Headey, Max Burkholder",
+      "Plot": "A wealthy family is held hostage for harboring the target of a murderous syndicate during the Purge, a 12-hour period in which any and all crime is legal.",
+      "Language": "English",
+      "Country": "France, United States",
+      "Awards": "2 wins & 6 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTQzNTcwODEyM15BMl5BanBnXkFtZTcwMjM1MDI0OQ@@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "5.8/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "41%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "41/100"
+         }
+      ],
+      "Metascore": "41",
+      "imdbRating": "5.8",
+      "imdbVotes": "258,879",
+      "imdbID": "tt2184339",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$64,473,115",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Mayans M.C.",
+      "Year": "2018–2023",
+      "Rated": "TV-MA",
+      "Released": "04 Sep 2018",
+      "Runtime": "60 min",
+      "Genre": "Crime, Drama, Thriller",
+      "Director": "N/A",
+      "Writer": "Elgin James, Kurt Sutter",
+      "Actors": "JD Pardo, Clayton Cardenas, Sarah Bolger",
+      "Plot": "A prospect in the Mayans M.C. charter on the California-Mexico border struggles with his desire for vengeance against the cartel and his need for respect from the women he loves.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "3 wins & 24 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYWViYWE0NTYtOWU2Mi00MWMwLWIxNmQtNDkyMzYxOTZjZmZhXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.5/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.5",
+      "imdbVotes": "27,282",
+      "imdbID": "tt5715524",
+      "Type": "series",
+      "totalSeasons": "5",
+      "Response": "True"
+   },
+   {
+      "Title": "Wentworth Season Six",
+      "Year": "2013-05-01",
+      "Genre": [
+         "Drama",
+         "Crime"
+      ]
+   },
+   {
+      "Title": "Cable Girls Season Three",
+      "Year": "2017-04-28",
+      "Genre": [
+         "Drama",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "You",
+      "Year": "2018–2025",
+      "Rated": "TV-MA",
+      "Released": "09 Sep 2018",
+      "Runtime": "45 min",
+      "Genre": "Crime, Drama, Romance",
+      "Director": "N/A",
+      "Writer": "Greg Berlanti, Sera Gamble",
+      "Actors": "Penn Badgley, Victoria Pedretti, Charlotte Ritchie",
+      "Plot": "A charming and intense young man inserts himself into the lives of women who fascinate him.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "4 wins & 11 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTVlYmRhMWQtNmE0Yi00ODM1LWEzMWEtNTQzZGZhODRmZTE0XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.6/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.6",
+      "imdbVotes": "361,631",
+      "imdbID": "tt7335184",
+      "Type": "series",
+      "totalSeasons": "5",
+      "Response": "True"
+   },
+   {
+      "Title": "The Last Ship Season 5",
+      "Year": "2014-06-22",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Thriller"
+      ]
+   },
+   {
+      "Title": "Shameless Season Nine",
+      "Year": "2011-01-09",
+      "Genre": [
+         "Drama",
+         "Comedy",
+         "Family"
+      ]
+   },
+   {
+      "Title": "The Deuce Season Two",
+      "Year": "2017-09-10",
+      "Genre": [
+         "Drama",
+         "Crime"
+      ]
+   },
+   {
+      "Title": "FX's American Horror Story: Apocalypse After Show",
+      "Year": "2018–",
+      "Rated": "N/A",
+      "Released": "19 Sep 2018",
+      "Runtime": "N/A",
+      "Genre": "Horror",
+      "Director": "N/A",
+      "Writer": "N/A",
+      "Actors": "Alana Jordan, Berenice Amador",
+      "Plot": "N/A",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNmFiMDMwYmYtMDcwMS00YjAzLThjOTItYWFhYzRmYTEwMjc3XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.5/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.5",
+      "imdbVotes": "918",
+      "imdbID": "tt9035222",
+      "Type": "series",
+      "totalSeasons": "8",
+      "Response": "True"
+   },
+   {
+      "Title": "Ingobernable Season Two",
+      "Year": "2017-03-24",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Crime"
+      ]
+   },
+   {
+      "Title": "The First",
+      "Year": "2018",
+      "Rated": "TV-MA",
+      "Released": "14 Sep 2018",
+      "Runtime": "N/A",
+      "Genre": "Drama, Sci-Fi",
+      "Director": "N/A",
+      "Writer": "Beau Willimon",
+      "Actors": "Sean Penn, Natascha McElhone, LisaGay Hamilton",
+      "Plot": "Fictional series to chronicle the effort to send the first crewed mission to Mars.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "3 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTExNTg1OTc0MDZeQTJeQWpwZ15BbWU4MDgwMDQxMzYz._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.6/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.6",
+      "imdbVotes": "8,375",
+      "imdbID": "tt7412482",
+      "Type": "series",
+      "totalSeasons": "1",
+      "Response": "True"
+   },
+   {
+      "Title": "Bojack Horseman, Season Five",
+      "Year": "2014-08-22",
+      "Genre": [
+         "Drama",
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "American Vandal, Season Two",
+      "Year": "2017-09-15",
+      "Genre": [
+         "Comedy",
+         "Crime"
+      ]
+   },
+   {
+      "Title": "9",
+      "Year": "2009",
+      "Rated": "PG-13",
+      "Released": "09 Sep 2009",
+      "Runtime": "79 min",
+      "Genre": "Animation, Action, Adventure",
+      "Director": "Shane Acker",
+      "Writer": "Pamela Pettler, Shane Acker, Ben Gluck",
+      "Actors": "Elijah Wood, Jennifer Connelly, Crispin Glover",
+      "Plot": "A rag doll that awakens in a postapocalyptic future holds the key to humanity's salvation.",
+      "Language": "English",
+      "Country": "United States, Canada, Luxembourg, United Kingdom, Russia",
+      "Awards": "9 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTY2ODE1MTgxMV5BMl5BanBnXkFtZTcwNTM1NTM2Mg@@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.0/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "57%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "60/100"
+         }
+      ],
+      "Metascore": "60",
+      "imdbRating": "7.0",
+      "imdbVotes": "156,153",
+      "imdbID": "tt0472033",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$31,749,894",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Star Season Three",
+      "Year": "2016-12-14",
+      "Genre": [
+         "Drama",
+         "Music"
+      ]
+   },
+   {
+      "Title": "American Housewife Season Three",
+      "Year": "2016-10-11",
+      "Genre": [
+         "Comedy",
+         "Family"
+      ]
+   },
+   {
+      "Title": "Grey’s Anatomy Season 15",
+      "Year": "2005-03-27",
+      "Genre": [
+         "Drama",
+         "Romance",
+         "Medical"
+      ]
+   },
+   {
+      "Title": "The Good Place Season Three",
+      "Year": "2016-09-19",
+      "Genre": [
+         "Comedy",
+         "Fantasy",
+         "Supernatural"
+      ]
+   },
+   {
+      "Title": "How To Get Away With Murder Season Five",
+      "Year": "2014-09-25",
+      "Genre": [
+         "Drama",
+         "Thriller",
+         "Legal"
+      ]
+   },
+   {
+      "Title": "S.W.A.T. Season Two",
+      "Year": "2017-11-02",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Crime"
+      ]
+   },
+   {
+      "Title": "Station 19 Season Two",
+      "Year": "2018-03-22",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "Will",
+      "Year": "2011",
+      "Rated": "Not Rated",
+      "Released": "04 Nov 2011",
+      "Runtime": "102 min",
+      "Genre": "Adventure, Drama, Family",
+      "Director": "Ellen Perry",
+      "Writer": "Zack Anderson, Ellen Perry",
+      "Actors": "Damian Lewis, Bob Hoskins, Rebekah Staton",
+      "Plot": "An orphan journeys across Europe to the 2005 Champions League Final in Istanbul.",
+      "Language": "English",
+      "Country": "United Kingdom",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDQ1MjUyOTE0M15BMl5BanBnXkFtZTcwMDU0MzE1Nw@@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.8/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "0%"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.8",
+      "imdbVotes": "3,498",
+      "imdbID": "tt1636844",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Fresh Off the Boat Season Five",
+      "Year": "2015-02-04",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "Madam Secretary Season Five",
+      "Year": "2014-09-21",
+      "Genre": [
+         "Drama"
+      ]
+   },
+   {
+      "Title": "The Walking Dead Season Nine",
+      "Year": "2010-10-31",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Horror"
+      ]
+   },
+   {
+      "Title": "Black Lightning Season Two",
+      "Year": "2018-01-16",
+      "Genre": [
+         "Drama",
+         "Crime",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "Everything Everywhere All at Once",
+      "Year": "2022",
+      "Rated": "R",
+      "Released": "08 Apr 2022",
+      "Runtime": "139 min",
+      "Genre": "Action, Adventure, Comedy",
+      "Director": "Daniel Kwan, Daniel Scheinert",
+      "Writer": "Daniel Kwan, Daniel Scheinert",
+      "Actors": "Michelle Yeoh, Stephanie Hsu, Jamie Lee Curtis",
+      "Plot": "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.",
+      "Language": "English, Mandarin, Cantonese",
+      "Country": "United States",
+      "Awards": "Won 7 Oscars. 408 wins & 382 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOWNmMzAzZmQtNDQ1NC00Nzk5LTkyMmUtNGI2N2NkOWM4MzEyXkEyXkFqcGc@._V1_QL75_UY562_CR4,0,380,562_.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.7/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "93%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "81/100"
+         }
+      ],
+      "Metascore": "81",
+      "imdbRating": "7.7",
+      "imdbVotes": "627,115",
+      "imdbID": "tt6710474",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$77,191,785",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Riverdale Season Three",
+      "Year": "2017-01-26",
+      "Genre": [
+         "Drama",
+         "Crime",
+         "Mystery"
+      ]
+   },
+   {
+      "Title": "Crazy Ex-Girlfriend",
+      "Year": "2015–2019",
+      "Rated": "TV-14",
+      "Released": "12 Oct 2015",
+      "Runtime": "2 min",
+      "Genre": "Comedy, Musical",
+      "Director": "N/A",
+      "Writer": "Rachel Bloom, Aline Brosh McKenna",
+      "Actors": "Rachel Bloom, Donna Lynne Champlin, Vincent Rodriguez III",
+      "Plot": "A young woman abandons a choice job at a law firm and her life in New York in an attempt to find happiness in the unlikely locale of West Covina, California.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 4 Primetime Emmys. 16 wins & 35 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjVjM2Y3YzctYzQwMi00OTY2LWEyMjMtODdkZmZiMWQxM2M4XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.9/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.9",
+      "imdbVotes": "23,612",
+      "imdbID": "tt4094300",
+      "Type": "series",
+      "totalSeasons": "4",
+      "Response": "True"
+   },
+   {
+      "Title": "Light as a Feather",
+      "Year": "2018–2019",
+      "Rated": "TV-14",
+      "Released": "12 Oct 2018",
+      "Runtime": "1 min",
+      "Genre": "Drama, Fantasy, Horror",
+      "Director": "N/A",
+      "Writer": "N/A",
+      "Actors": "Liana Liberato, Haley Ramm, Brianne Tju",
+      "Plot": "A group of teenage girls must deal with supernatural fallout stemming from an innocent game of \"Light as a Feather, Stiff as a Board\" when they start dying off in the exact way predicted.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "10 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODQyNjRmMTItY2E5Yi00N2I3LWFiYmQtOWI5YmViYjFhZGY1XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.5/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.5",
+      "imdbVotes": "4,203",
+      "imdbID": "tt8619822",
+      "Type": "series",
+      "totalSeasons": "2",
+      "Response": "True"
+   },
+   {
+      "Title": "The Haunting of Hill House",
+      "Year": "2018",
+      "Rated": "TV-MA",
+      "Released": "12 Oct 2018",
+      "Runtime": "572 min",
+      "Genre": "Drama, Horror, Mystery",
+      "Director": "N/A",
+      "Writer": "Mike Flanagan",
+      "Actors": "Michiel Huisman, Carla Gugino, Henry Thomas",
+      "Plot": "Flashing between past and present, a fractured family confronts haunting memories of their old home and the terrifying events that drove them from it.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "9 wins & 36 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTU4NzA4MDEwNF5BMl5BanBnXkFtZTgwMTQxODYzNjM@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "8.5/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "8.5",
+      "imdbVotes": "325,686",
+      "imdbID": "tt6763664",
+      "Type": "series",
+      "totalSeasons": "1",
+      "Response": "True"
+   },
+   {
+      "Title": "Camping",
+      "Year": "2006",
+      "Rated": "N/A",
+      "Released": "26 Apr 2006",
+      "Runtime": "95 min",
+      "Genre": "Comedy",
+      "Director": "Fabien Onteniente",
+      "Writer": "Emanuel Booz, Franck Dubosc, Philippe Guillard",
+      "Actors": "Gérard Lanvin, Mathilde Seigner, Franck Dubosc",
+      "Plot": "At the campsite Blue Waves, people arrives from all over France. Like every year, this is the time of reunion around a drink customary for families of regulars. Except this year, Mister Pic not have his location number 17, the Gat...",
+      "Language": "French",
+      "Country": "France",
+      "Awards": "2 wins & 1 nomination total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTNkOGZjMTQtYzEzZS00OGJkLTk0OGItMzRhMTkzOGIyYmMxXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "5.1/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "5.1",
+      "imdbVotes": "4,018",
+      "imdbID": "tt0473829",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Charmed",
+      "Year": "1998–2006",
+      "Rated": "TV-14",
+      "Released": "07 Oct 1998",
+      "Runtime": "42 min",
+      "Genre": "Drama, Fantasy, Mystery",
+      "Director": "N/A",
+      "Writer": "Constance M. Burge",
+      "Actors": "Holly Marie Combs, Alyssa Milano, Brian Krause",
+      "Plot": "Three sisters discover that they are descendants of a line of good female witches and are destined to fight against the forces of evil.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "5 wins & 20 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOGU5MGU3NmYtOTIzNi00NTg2LTkxMWUtNjQwMzhiNWQ5NzQ0XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.2/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.2",
+      "imdbVotes": "97,545",
+      "imdbID": "tt0158552",
+      "Type": "series",
+      "totalSeasons": "8",
+      "Response": "True"
+   },
+   {
+      "Title": "Supergirl Season Four",
+      "Year": "2015-10-26",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "Arrow Season Seven",
+      "Year": "2012-10-10",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "Loudermilk",
+      "Year": "2017–2020",
+      "Rated": "TV-14",
+      "Released": "17 Oct 2017",
+      "Runtime": "N/A",
+      "Genre": "Comedy, Drama",
+      "Director": "N/A",
+      "Writer": "Peter Farrelly, Bobby Mort",
+      "Actors": "Ron Livingston, Will Sasso, Anja Savcic",
+      "Plot": "Sam Loudermilk is a recovering alcoholic and substance-abuse counselor with a bad attitude. Although he has his drinking under control, Loudermilk discovers that when your life is a mess, getting clean is the easy part.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "3 wins & 6 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjEwMjI4MjIzNl5BMl5BanBnXkFtZTgwNDA2NDQxMzI@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.8/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.8",
+      "imdbVotes": "23,142",
+      "imdbID": "tt5957766",
+      "Type": "series",
+      "totalSeasons": "3",
+      "Response": "True"
+   },
+   {
+      "Title": "Legends of Tomorrow Season Four",
+      "Year": "2016-01-21",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "Legacies",
+      "Year": "2018–2022",
+      "Rated": "TV-14",
+      "Released": "25 Oct 2018",
+      "Runtime": "45 min",
+      "Genre": "Adventure, Drama, Fantasy",
+      "Director": "N/A",
+      "Writer": "Julie Plec",
+      "Actors": "Danielle Rose Russell, Aria Shahghasemi, Jenny Boyd",
+      "Plot": "Hope Mikaelson, a tribrid daughter of a Vampire/Werewolf hybrid, makes her way in the world.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "3 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZmMzYzYwMjItOWRiNi00NmU3LWI2ZjktOWFjYzI5ZmI4ZDI0XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.2/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.2",
+      "imdbVotes": "41,580",
+      "imdbID": "tt8103070",
+      "Type": "series",
+      "totalSeasons": "4",
+      "Response": "True"
+   },
+   {
+      "Title": "Ray Donovan Season Six",
+      "Year": "2013-06-30",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Crime"
+      ]
+   },
+   {
+      "Title": "Sally4Ever",
+      "Year": "2018",
+      "Rated": "TV-MA",
+      "Released": "25 Oct 2018",
+      "Runtime": "30 min",
+      "Genre": "Comedy, Romance",
+      "Director": "N/A",
+      "Writer": "N/A",
+      "Actors": "Julian Barratt, Julia Davis, Felicity Montagu",
+      "Plot": "For 10 years Sally has lived a dull suburban life with David. But on the night he asks her to marry him, Sally has a crisis and embarks on a wild affair with Emma, a seductive, charismatic, boho actress, singer, musician, poet and...",
+      "Language": "English",
+      "Country": "United Kingdom",
+      "Awards": "Won 1 BAFTA Award1 win & 2 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxNTEzOTU3MF5BMl5BanBnXkFtZTgwNjAwNDE3NjM@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.6/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.6",
+      "imdbVotes": "2,070",
+      "imdbID": "tt8358050",
+      "Type": "series",
+      "totalSeasons": "1",
+      "Response": "True"
+   },
+   {
+      "Title": "The Bisexual",
+      "Year": "2018",
+      "Rated": "TV-MA",
+      "Released": "16 Nov 2018",
+      "Runtime": "41S min",
+      "Genre": "Comedy, Drama, Romance",
+      "Director": "N/A",
+      "Writer": "Desiree Akhavan, Rowan Riley",
+      "Actors": "Desiree Akhavan, Maxine Peake, Brian Gleeson",
+      "Plot": "Dramedy series examining the life of a woman who breaks off with her long term girlfriend and tries having a relationship with a man for a change.",
+      "Language": "English",
+      "Country": "United Kingdom, United States",
+      "Awards": "2 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZWQzMzdkNDgtODU2Yi00YjFlLThkM2EtN2M2OTI5MDVhNWI2XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.5/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.5",
+      "imdbVotes": "1,478",
+      "imdbID": "tt8050586",
+      "Type": "series",
+      "totalSeasons": "1",
+      "Response": "True"
+   },
+   {
+      "Title": "Arrowverse Crossover Event",
+      "Year": null
+   },
+   {
+      "Title": "Marvel’s Runaways Season Two",
+      "Year": "2017-11-21",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Science-Fiction"
+      ]
+   }
+]

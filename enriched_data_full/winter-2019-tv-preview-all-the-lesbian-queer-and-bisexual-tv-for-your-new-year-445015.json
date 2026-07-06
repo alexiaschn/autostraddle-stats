@@ -1,0 +1,437 @@
+[
+   {
+      "Title": "Grown",
+      "Year": null,
+      "Genre": [
+         "Drama"
+      ]
+   },
+   {
+      "Title": "Good Trouble",
+      "Year": "2019-01-08",
+      "Genre": [
+         "Drama",
+         "Family",
+         "Legal"
+      ]
+   },
+   {
+      "Title": "Brooklyn 99",
+      "Year": "2013-09-17",
+      "Genre": [
+         "Comedy",
+         "Action",
+         "Crime"
+      ]
+   },
+   {
+      "Title": "Sex Education",
+      "Year": "2019-01-11",
+      "Genre": [
+         "Drama",
+         "Comedy",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "Schitt’s Creek",
+      "Year": "2015-01-13",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "Star Trek Discovery",
+      "Year": "2017-09-24",
+      "Genre": [
+         "Drama",
+         "Adventure",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "Shameless",
+      "Year": "2011-01-09",
+      "Genre": [
+         "Drama",
+         "Comedy",
+         "Family"
+      ]
+   },
+   {
+      "Title": "High Maintenance",
+      "Year": "2012-11-09",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "The Magicians",
+      "Year": "2015-12-16",
+      "Genre": [
+         "Drama",
+         "Adventure",
+         "Fantasy"
+      ]
+   },
+   {
+      "Title": "Broad City",
+      "Year": "2014-01-22",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "Siren",
+      "Year": "2018-03-29",
+      "Genre": [
+         "Drama",
+         "Fantasy"
+      ]
+   },
+   {
+      "Title": "RENT! Live",
+      "Year": "2013-04-03",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "Russian Doll",
+      "Year": "2019-02-01",
+      "Genre": [
+         "Drama",
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "One Day At a Time",
+      "Year": "2017-01-06",
+      "Genre": [
+         "Comedy",
+         "Family"
+      ]
+   },
+   {
+      "Title": "Walking Dead",
+      "Year": "2010-10-31",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Horror"
+      ]
+   },
+   {
+      "Title": "Boomerang",
+      "Year": "2019-02-12",
+      "Genre": [
+         "Comedy",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "The Umbrella Academy",
+      "Year": "2019-02-15",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "Shadowhunters",
+      "Year": "2016-01-12",
+      "Genre": [
+         "Drama",
+         "Fantasy",
+         "Supernatural"
+      ]
+   },
+   {
+      "Title": "Better Things",
+      "Year": "2016-09-08",
+      "Genre": [
+         "Drama",
+         "Comedy",
+         "Family"
+      ]
+   },
+   {
+      "Title": "Station 19",
+      "Year": "2018-03-22",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "For the People",
+      "Year": "2018-03-13",
+      "Genre": [
+         "Drama",
+         "Legal"
+      ]
+   },
+   {
+      "Title": "American Gods",
+      "Year": "2017-04-30",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Fantasy"
+      ]
+   },
+   {
+      "Title": "The Good Fight",
+      "Year": "2017-02-19",
+      "Genre": [
+         "Drama",
+         "Legal"
+      ]
+   },
+   {
+      "Title": "Shrill",
+      "Year": "2019-03-15",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "Jane the Virgin",
+      "Year": "2014-10-13",
+      "Genre": [
+         "Drama",
+         "Crime",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "Abby’s",
+      "Year": "2019-03-28",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "Harlots",
+      "Year": "2017-03-27",
+      "Genre": [
+         "Drama",
+         "History"
+      ]
+   },
+   {
+      "Title": "Veep",
+      "Year": "2012-04-22",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "Legends of Tomorrow",
+      "Year": "2016-01-21",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "The Chilling Adventures of Sabrina",
+      "Year": "2018-10-26",
+      "Genre": [
+         "Horror",
+         "Romance",
+         "Supernatural"
+      ]
+   },
+   {
+      "Title": "Killing Eve",
+      "Year": "2018-04-08",
+      "Genre": [
+         "Drama",
+         "Crime",
+         "Thriller"
+      ]
+   },
+   {
+      "Title": "The Bold Type",
+      "Year": "2017-06-20",
+      "Genre": [
+         "Drama",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "She",
+      "Year": "2020-03-20",
+      "Genre": [
+         "Drama",
+         "Crime",
+         "Thriller"
+      ]
+   },
+   {
+      "Title": "Fresh Off The Boat",
+      "Year": "2015-02-04",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "God Friended Me",
+      "Year": "2018-09-30",
+      "Genre": [
+         "Drama",
+         "Family",
+         "Mystery"
+      ]
+   },
+   {
+      "Title": "Mainfest",
+      "Year": "2018-09-24",
+      "Genre": [
+         "Drama",
+         "Thriller",
+         "Mystery"
+      ]
+   },
+   {
+      "Title": "Law & Order: Special Victims Unit",
+      "Year": "2021-09-17",
+      "Genre": [
+         "Drama",
+         "Family",
+         "Legal"
+      ]
+   },
+   {
+      "Title": "S.W.A.T.",
+      "Year": "2017-11-02",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Crime"
+      ]
+   },
+   {
+      "Title": "The Good Place",
+      "Year": "2016-09-19",
+      "Genre": [
+         "Comedy",
+         "Fantasy",
+         "Supernatural"
+      ]
+   },
+   {
+      "Title": "Crazy Ex",
+      "Year": "2015-04-01",
+      "Genre": []
+   },
+   {
+      "Title": "The Flash",
+      "Year": "2014-10-07",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "This Is Us",
+      "Year": "2016-09-20",
+      "Genre": [
+         "Drama",
+         "Comedy",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "Riverdale",
+      "Year": "2017-01-26",
+      "Genre": [
+         "Drama",
+         "Crime",
+         "Mystery"
+      ]
+   },
+   {
+      "Title": "All",
+      "Year": "2018-10-10",
+      "Genre": [
+         "Drama",
+         "Sports"
+      ]
+   },
+   {
+      "Title": "Grey’s Anatomy",
+      "Year": "2005-03-27",
+      "Genre": [
+         "Drama",
+         "Romance",
+         "Medical"
+      ]
+   },
+   {
+      "Title": "How To Get Away With Murder",
+      "Year": "2014-09-25",
+      "Genre": [
+         "Drama",
+         "Thriller",
+         "Legal"
+      ]
+   },
+   {
+      "Title": "Supergirl",
+      "Year": "2015-10-26",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "Charmed",
+      "Year": "1998-10-07",
+      "Genre": [
+         "Drama",
+         "Romance",
+         "Supernatural"
+      ]
+   },
+   {
+      "Title": "Black Lightning",
+      "Year": "2018-01-16",
+      "Genre": [
+         "Drama",
+         "Crime",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "Legacies",
+      "Year": "2018-10-25",
+      "Genre": [
+         "Drama",
+         "Romance",
+         "Supernatural"
+      ]
+   },
+   {
+      "Title": "American Housewife",
+      "Year": "2016-10-11",
+      "Genre": [
+         "Comedy",
+         "Family"
+      ]
+   },
+   {
+      "Title": "9",
+      "Year": null,
+      "Genre": [
+         "Adventure",
+         "Fantasy"
+      ]
+   }
+]

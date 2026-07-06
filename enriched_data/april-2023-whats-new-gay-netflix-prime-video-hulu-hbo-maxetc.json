@@ -1,0 +1,401 @@
+[
+   {
+      "Title": "Everything Everywhere All at Once",
+      "Year": "2022",
+      "Rated": "R",
+      "Released": "08 Apr 2022",
+      "Runtime": "139 min",
+      "Genre": "Action, Adventure, Comedy",
+      "Director": "Daniel Kwan, Daniel Scheinert",
+      "Writer": "Daniel Kwan, Daniel Scheinert",
+      "Actors": "Michelle Yeoh, Stephanie Hsu, Jamie Lee Curtis",
+      "Plot": "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.",
+      "Language": "English, Mandarin, Cantonese",
+      "Country": "United States",
+      "Awards": "Won 7 Oscars. 408 wins & 382 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOWNmMzAzZmQtNDQ1NC00Nzk5LTkyMmUtNGI2N2NkOWM4MzEyXkEyXkFqcGc@._V1_QL75_UY562_CR4,0,380,562_.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.7/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "93%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "81/100"
+         }
+      ],
+      "Metascore": "81",
+      "imdbRating": "7.7",
+      "imdbVotes": "627,115",
+      "imdbID": "tt6710474",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$77,191,785",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Miriam Margolyes: Almost Australian",
+      "Year": "2020",
+      "Rated": "N/A",
+      "Released": "19 May 2020",
+      "Runtime": "N/A",
+      "Genre": "Documentary",
+      "Director": "N/A",
+      "Writer": "N/A",
+      "Actors": "Miriam Margolyes",
+      "Plot": "A revealing documentary series; following celebrated film and television star Miriam Margolyes as she embarks on an epic two-month journey across the nation to discover what it means to be Australian today.",
+      "Language": "English",
+      "Country": "Australia",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BY2U1MzkyMzEtZjM1MC00YzA5LTlmYjMtYWEwYjViNjdhYTNhXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.5/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.5",
+      "imdbVotes": "408",
+      "imdbID": "tt12349930",
+      "Type": "series",
+      "totalSeasons": "1",
+      "Response": "True"
+   },
+   {
+      "Title": "Welcome to Eden",
+      "Year": "2022\u20132023",
+      "Rated": "TV-MA",
+      "Released": "06 May 2022",
+      "Runtime": "1 min",
+      "Genre": "Action, Drama, Sci-Fi",
+      "Director": "N/A",
+      "Writer": "Joaqu\u00edn G\u00f3rriz, Guillermo L\u00f3pez S\u00e1nchez",
+      "Actors": "Amaia Aberasturi, Berta Casta\u00f1\u00e9, Tomy Aguilera",
+      "Plot": "A group of young adults attend a party on a remote island, but the tempting paradise they find waiting for them holds dangerous secrets and entrapments.",
+      "Language": "Spanish",
+      "Country": "Spain",
+      "Awards": "1 nomination total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjE2NmZjMDMtNGNiOC00ZWMyLTg2NWEtNzI1ZGMyNjcxM2EzXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "5.6/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "5.6",
+      "imdbVotes": "8,634",
+      "imdbID": "tt13457822",
+      "Type": "series",
+      "totalSeasons": "2",
+      "Response": "True"
+   },
+   {
+      "Title": "Bros",
+      "Year": "2022",
+      "Rated": "R",
+      "Released": "30 Sep 2022",
+      "Runtime": "115 min",
+      "Genre": "Comedy, Romance",
+      "Director": "Nicholas Stoller",
+      "Writer": "Billy Eichner, Nicholas Stoller",
+      "Actors": "Billy Eichner, Luke Macfarlane, Guy Branum",
+      "Plot": "Two men with commitment problems attempt a relationship.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "2 wins & 16 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BN2UxNGVkNDctMTdkZi00NzgyLWJiZjQtMGY1MWUwNTQ1MTY2XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.4/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "88%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "72/100"
+         }
+      ],
+      "Metascore": "72",
+      "imdbRating": "6.4",
+      "imdbVotes": "38,091",
+      "imdbID": "tt9731598",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$11,628,165",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "The Marvelous Mrs Maisel: Season Five Premiere",
+      "Year": null
+   },
+   {
+      "Title": "Dead Ringers",
+      "Year": "1988",
+      "Rated": "R",
+      "Released": "23 Sep 1988",
+      "Runtime": "116 min",
+      "Genre": "Drama, Horror, Thriller",
+      "Director": "David Cronenberg",
+      "Writer": "David Cronenberg, Norman Snider, Bari Wood",
+      "Actors": "Jeremy Irons, Genevi\u00e8ve Bujold, Heidi von Palleske",
+      "Plot": "Twin gynecologists take full advantage of the fact that nobody can tell them apart, until their relationship begins to deteriorate over a woman.",
+      "Language": "English",
+      "Country": "Canada, United States",
+      "Awards": "20 wins & 14 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTMwZDViNDMtZGJjNC00YzM4LWFiN2YtZjVjNjAwOWNjMTIxXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.2/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "86%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "86/100"
+         }
+      ],
+      "Metascore": "86",
+      "imdbRating": "7.2",
+      "imdbVotes": "58,399",
+      "imdbID": "tt0094964",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$8,038,508",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Walker: Independence",
+      "Year": "2022\u20132023",
+      "Rated": "TV-14",
+      "Released": "06 Oct 2022",
+      "Runtime": "N/A",
+      "Genre": "Action, Crime, Drama",
+      "Director": "N/A",
+      "Writer": "Seamus Kevin Fahey, Anna Fricke",
+      "Actors": "Katherine McNamara, Matt Barr, Katie Findlay",
+      "Plot": "Abby Walker's husband is murdered before her eyes. On her quest for revenge, Abby crosses paths with Hoyt Rawlins. Abby and Hoyt's journey takes them to Independence, Texas, where they encounter residents running from their own pa...",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "1 nomination total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzEyZDBhMDctODMzMy00NjUyLWIzNmEtY2U3YjcwNDc5ZjcyXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.9/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.9",
+      "imdbVotes": "4,100",
+      "imdbID": "tt16373746",
+      "Type": "series",
+      "totalSeasons": "1",
+      "Response": "True"
+   },
+   {
+      "Title": "Tangerine",
+      "Year": "2015",
+      "Rated": "R",
+      "Released": "10 Jul 2015",
+      "Runtime": "88 min",
+      "Genre": "Comedy, Crime, Drama",
+      "Director": "Sean Baker",
+      "Writer": "Sean Baker, Chris Bergoch",
+      "Actors": "Kitana Kiki Rodriguez, Mya Taylor, Karren Karagulian",
+      "Plot": "A hooker tears through Tinseltown on Christmas Eve searching for the pimp who broke her heart.",
+      "Language": "English, Armenian, Spanish",
+      "Country": "United States",
+      "Awards": "24 wins & 42 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjEzNzY2NjYwOV5BMl5BanBnXkFtZTgwOTY1MDU1NTE@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.1/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "96%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "86/100"
+         }
+      ],
+      "Metascore": "86",
+      "imdbRating": "7.1",
+      "imdbVotes": "41,468",
+      "imdbID": "tt3824458",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$702,354",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "The Winchesters",
+      "Year": "2022\u20132023",
+      "Rated": "TV-14",
+      "Released": "11 Oct 2022",
+      "Runtime": "3 min",
+      "Genre": "Action, Adventure, Drama",
+      "Director": "N/A",
+      "Writer": "Robbie Thompson",
+      "Actors": "Meg Donnelly, Drake Rodger, Nida Khurshid",
+      "Plot": "An epic untold love story of John and Mary of how they not only saved their love but also the entire world.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMWYxZGViYmQtNzA1NS00YzExLWI0N2MtYmVhMzY0YTExNWVmXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.2/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.2",
+      "imdbVotes": "11,503",
+      "imdbID": "tt14923244",
+      "Type": "series",
+      "totalSeasons": "1",
+      "Response": "True"
+   },
+   {
+      "Title": "A Black Lady Sketch Show: Season Four Premiere",
+      "Year": null
+   },
+   {
+      "Title": "#BringBackAlice: Season One Premiere",
+      "Year": null
+   },
+   {
+      "Title": "Somebody Somewhere: Season Two Premiere",
+      "Year": null
+   },
+   {
+      "Title": "Tiny Beautiful Things",
+      "Year": "2023",
+      "Rated": "TV-MA",
+      "Released": "07 Apr 2023",
+      "Runtime": "N/A",
+      "Genre": "Comedy, Drama",
+      "Director": "N/A",
+      "Writer": "N/A",
+      "Actors": "Kathryn Hahn, Sarah Pidgeon, Quentin Plair",
+      "Plot": "Follows a woman who reluctantly becomes Dear Sugar; an anonymous and revered advice columnist, even when her own life is falling apart.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Nominated for 2 Primetime Emmys. 1 win & 15 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTg1YjBiNGUtYTVhMC00YjhmLTg2NTMtMTg0MTA1ZmM1YzgzXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.1/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.1",
+      "imdbVotes": "7,249",
+      "imdbID": "tt20869432",
+      "Type": "series",
+      "totalSeasons": "1",
+      "Response": "True"
+   },
+   {
+      "Title": "Single Drunk Female: Season Two Premiere",
+      "Year": null
+   },
+   {
+      "Title": "Broad City",
+      "Year": "2014\u20132019",
+      "Rated": "TV-14",
+      "Released": "22 Jan 2014",
+      "Runtime": "22 min",
+      "Genre": "Comedy",
+      "Director": "N/A",
+      "Writer": "Ilana Glazer, Abbi Jacobson",
+      "Actors": "Ilana Glazer, Abbi Jacobson, Hannibal Buress",
+      "Plot": "Broad City follows two women throughout their daily lives in New York City, making the smallest and mundane events hysterical and disturbing to watch all at the same time.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 1 Primetime Emmy. 2 wins & 19 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMWZiYzAxMWMtMGVmNS00NzhhLTlkMWEtZmNkYjA0MDZhMDQ5XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "8.4/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "8.4",
+      "imdbVotes": "38,383",
+      "imdbID": "tt2578560",
+      "Type": "series",
+      "totalSeasons": "5",
+      "Response": "True"
+   },
+   {
+      "Title": "Grease: Rise of the Pink Ladies: Season One Premiere",
+      "Year": null
+   },
+   {
+      "Title": "Couple\u2019s Therapy: Season 3B",
+      "Year": null
+   },
+   {
+      "Title": "Slip: Season One",
+      "Year": null
+   },
+   {
+      "Title": "The Owl House: Final Special Episode",
+      "Year": null
+   },
+   {
+      "Title": "Matildas: The World at Our Feet",
+      "Year": "2023",
+      "Rated": "TV-MA",
+      "Released": "26 Apr 2023",
+      "Runtime": "N/A",
+      "Genre": "Documentary, Sport",
+      "Director": "N/A",
+      "Writer": "N/A",
+      "Actors": "Mary Fowler, Samantha Kerr, Lydia Williams",
+      "Plot": "Follow the Matildas as they prepare for the 2023 FIFA Women's World Cup on home soil alongside co-host New Zealand.",
+      "Language": "English",
+      "Country": "Australia",
+      "Awards": "3 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYjk4MjI1YTMtMTZmZS00YWNhLTlhMmQtNDA4NTVlN2FjOWNjXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.7/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.7",
+      "imdbVotes": "249",
+      "imdbID": "tt20425278",
+      "Type": "series",
+      "totalSeasons": "1",
+      "Response": "True"
+   }
+]

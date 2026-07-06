@@ -1,0 +1,448 @@
+[
+   {
+      "Title": "Mars One",
+      "Year": "2022",
+      "Rated": "N/A",
+      "Released": "05 Jan 2023",
+      "Runtime": "115 min",
+      "Genre": "Drama",
+      "Director": "Gabriel Martins",
+      "Writer": "Gabriel Martins",
+      "Actors": "Cícero Lucas, Carlos Francisco, Camilla Damião",
+      "Plot": "A lower middle class family undergoes a series of challenging and profound changes, reinventing themselves and their family ties along the way.",
+      "Language": "Portuguese",
+      "Country": "Brazil",
+      "Awards": "40 wins & 14 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDAxMGNkMWMtYzFiYy00OGI5LWExYWYtNTE5ZDRiMDdhYTU3XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.4/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "97%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "82/100"
+         }
+      ],
+      "Metascore": "82",
+      "imdbRating": "7.4",
+      "imdbVotes": "2,410",
+      "imdbID": "tt16377816",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Ginny",
+      "Year": "2016",
+      "Rated": "N/A",
+      "Released": "N/A",
+      "Runtime": "5 min",
+      "Genre": "Animation, Short",
+      "Director": "Susi Jirkuff",
+      "Writer": "N/A",
+      "Actors": "Georgi Nightingall, Howard Nightingall",
+      "Plot": "N/A",
+      "Language": "English",
+      "Country": "Austria",
+      "Awards": "1 nomination",
+      "Poster": "N/A",
+      "Ratings": [],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "8",
+      "imdbID": "tt6789116",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "The Walking Dead: Season 11",
+      "Year": "2010-10-31",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Horror"
+      ]
+   },
+   {
+      "Title": "Sky Rojo: Season 3",
+      "Year": "2021-03-19",
+      "Genre": [
+         "Drama",
+         "Crime",
+         "Thriller"
+      ]
+   },
+   {
+      "Title": "She Hate Me",
+      "Year": "2004",
+      "Rated": "R",
+      "Released": "30 Jul 2004",
+      "Runtime": "138 min",
+      "Genre": "Comedy, Drama",
+      "Director": "Spike Lee",
+      "Writer": "Michael Genet, Spike Lee",
+      "Actors": "Anthony Mackie, Kerry Washington, Ellen Barkin",
+      "Plot": "Fired from his job for exposing corrupt business practices, a former biotech executive turns to impregnating wealthy lesbians for profit.",
+      "Language": "English, German, Spanish",
+      "Country": "United States",
+      "Awards": "1 win & 7 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTczOTkwMDMwMV5BMl5BanBnXkFtZTcwNjU3MDYyMQ@@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "5.3/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "19%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "30/100"
+         }
+      ],
+      "Metascore": "30",
+      "imdbRating": "5.3",
+      "imdbVotes": "8,400",
+      "imdbID": "tt0384533",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$366,037",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Tangerine",
+      "Year": "2015",
+      "Rated": "R",
+      "Released": "10 Jul 2015",
+      "Runtime": "88 min",
+      "Genre": "Comedy, Crime, Drama",
+      "Director": "Sean Baker",
+      "Writer": "Sean Baker, Chris Bergoch",
+      "Actors": "Kitana Kiki Rodriguez, Mya Taylor, Karren Karagulian",
+      "Plot": "A hooker tears through Tinseltown on Christmas Eve searching for the pimp who broke her heart.",
+      "Language": "English, Armenian, Spanish",
+      "Country": "United States",
+      "Awards": "24 wins & 42 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjEzNzY2NjYwOV5BMl5BanBnXkFtZTgwOTY1MDU1NTE@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.1/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "96%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "86/100"
+         }
+      ],
+      "Metascore": "86",
+      "imdbRating": "7.1",
+      "imdbVotes": "41,468",
+      "imdbID": "tt3824458",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$702,354",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "The Brady Bunch Movie",
+      "Year": "1995",
+      "Rated": "PG-13",
+      "Released": "17 Feb 1995",
+      "Runtime": "90 min",
+      "Genre": "Comedy",
+      "Director": "Betty Thomas",
+      "Writer": "Sherwood Schwartz, Laurice Elehwany, Rick Copp",
+      "Actors": "Shelley Long, Gary Cole, Christine Taylor",
+      "Plot": "The original 1970s TV family is now placed in the 1990s, where they're even more square and out of place than ever.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "3 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTRjZTkxNWUtZDM1Mi00ZjE0LTk1N2ItNDc5MWY0ZTUwYmMyXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.2/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "63%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "54/100"
+         }
+      ],
+      "Metascore": "54",
+      "imdbRating": "6.2",
+      "imdbVotes": "25,421",
+      "imdbID": "tt0112572",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$46,576,136",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "The Rig: Season One",
+      "Year": "2023-01-06",
+      "Genre": [
+         "Action",
+         "Thriller",
+         "Supernatural"
+      ]
+   },
+   {
+      "Title": "Jurassic World: Dominion",
+      "Year": "2022",
+      "Rated": "PG-13",
+      "Released": "10 Jun 2022",
+      "Runtime": "147 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Colin Trevorrow",
+      "Writer": "Emily Carmichael, Colin Trevorrow, Derek Connolly",
+      "Actors": "Chris Pratt, Bryce Dallas Howard, Laura Dern",
+      "Plot": "Four years after the destruction of Isla Nublar, Biosyn operatives attempt to track down Maisie Lockwood, while Dr Ellie Sattler investigates a genetically engineered swarm of giant insects.",
+      "Language": "English, Maltese, French",
+      "Country": "United States, China",
+      "Awards": "1 win & 26 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZGExMWU2NWMtNzczYi00NjQ4LTk2YzctZGZkYmRmMDdhMjllXkEyXkFqcGc@._V1_QL75_UY562_CR5,0,380,562_.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "5.6/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "28%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "38/100"
+         }
+      ],
+      "Metascore": "38",
+      "imdbRating": "5.6",
+      "imdbVotes": "245,361",
+      "imdbID": "tt8041270",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$376,851,080",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Hunters: Season Two",
+      "Year": "2020-02-21",
+      "Genre": [
+         "Drama"
+      ]
+   },
+   {
+      "Title": "The Legend of Vox Machina: Season Two",
+      "Year": "2022-01-27",
+      "Genre": [
+         "Comedy",
+         "Adventure",
+         "Fantasy"
+      ]
+   },
+   {
+      "Title": "Skate Kitchen",
+      "Year": "2018",
+      "Rated": "R",
+      "Released": "10 Aug 2018",
+      "Runtime": "106 min",
+      "Genre": "Drama",
+      "Director": "Crystal Moselle",
+      "Writer": "Crystal Moselle, Jen Silverman, Aslihan Unaldi",
+      "Actors": "Rachelle Vinberg, Dede Lovelace, Nina Moran",
+      "Plot": "A teenaged skateboarder makes friends with a bunch of other skateboarding girls in New York City.",
+      "Language": "English, Spanish",
+      "Country": "United States, United Kingdom, Brazil",
+      "Awards": "3 wins & 11 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTgwMTQ1ODY1N15BMl5BanBnXkFtZTgwMjM4NjQ3NTM@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.8/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "89%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "72/100"
+         }
+      ],
+      "Metascore": "72",
+      "imdbRating": "6.8",
+      "imdbVotes": "4,959",
+      "imdbID": "tt7545566",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$236,799",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Velma: Season One Premiere",
+      "Year": "2023-01-12",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "The Last of Us: Season One Premiere",
+      "Year": "2023-01-15",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Horror"
+      ]
+   },
+   {
+      "Title": "Are You The One? Complete Season 8",
+      "Year": null
+   },
+   {
+      "Title": "Professor Marston And The Wonder Women",
+      "Year": "2017"
+   },
+   {
+      "Title": "Fantasy Island: Season 2 Premiere",
+      "Year": "2021-08-10",
+      "Genre": [
+         "Drama",
+         "Fantasy"
+      ]
+   },
+   {
+      "Title": "The Drop",
+      "Year": "2022",
+      "Rated": "R",
+      "Released": "13 Jan 2023",
+      "Runtime": "92 min",
+      "Genre": "Comedy",
+      "Director": "Sarah Adina Smith",
+      "Writer": "Sarah Adina Smith, Joshua Leonard",
+      "Actors": "Jermaine Fowler, Anna Konkle, Monnae Michaell",
+      "Plot": "In this cringe comedy, a married couple face a marriage test when one of them drops a baby during a tropical island wedding.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "1 nomination",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDRiYTMzYzQtNWYyZS00NzFjLTliYmMtYTljNzdlNGQzM2ZlXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "4.3/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "50%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "52/100"
+         }
+      ],
+      "Metascore": "52",
+      "imdbRating": "4.3",
+      "imdbVotes": "978",
+      "imdbID": "tt19758112",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "9",
+      "Year": "2009",
+      "Rated": "PG-13",
+      "Released": "09 Sep 2009",
+      "Runtime": "79 min",
+      "Genre": "Animation, Action, Adventure",
+      "Director": "Shane Acker",
+      "Writer": "Pamela Pettler, Shane Acker, Ben Gluck",
+      "Actors": "Elijah Wood, Jennifer Connelly, Crispin Glover",
+      "Plot": "A rag doll that awakens in a postapocalyptic future holds the key to humanity's salvation.",
+      "Language": "English",
+      "Country": "United States, Canada, Luxembourg, United Kingdom, Russia",
+      "Awards": "9 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTY2ODE1MTgxMV5BMl5BanBnXkFtZTcwNTM1NTM2Mg@@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.0/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "57%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "60/100"
+         }
+      ],
+      "Metascore": "60",
+      "imdbRating": "7.0",
+      "imdbVotes": "156,153",
+      "imdbID": "tt0472033",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$31,749,894",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "How I Met Your Father: Season 2 Premiere",
+      "Year": "2022-01-18",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "The Traitors: Season One Premiere",
+      "Year": "2023-01-12",
+      "Genre": []
+   },
+   {
+      "Title": "Poker Face: First Four Episodes Premiere",
+      "Year": null
+   },
+   {
+      "Title": "Truth Be Told: Season Three: Season Premiere",
+      "Year": null
+   },
+   {
+      "Title": "Anne Rice’s Mayfair Witches: Series Premiere",
+      "Year": null
+   }
+]

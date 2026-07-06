@@ -1,0 +1,168 @@
+[
+   {
+      "Title": "Marvel’s Runaways",
+      "Year": "2017-11-21",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "Godless",
+      "Year": "2017-11-22",
+      "Genre": [
+         "Drama",
+         "Western"
+      ]
+   },
+   {
+      "Title": "She’s Gotta Have It",
+      "Year": "2017-11-23",
+      "Genre": [
+         "Drama",
+         "Comedy",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "The Marvelous Mrs. Maisel",
+      "Year": "2017-03-17",
+      "Genre": [
+         "Drama",
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "Easy",
+      "Year": "2016-09-22",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "Grown",
+      "Year": null,
+      "Genre": [
+         "Drama"
+      ]
+   },
+   {
+      "Title": "The Chi",
+      "Year": "2018-01-07",
+      "Genre": [
+         "Drama"
+      ]
+   },
+   {
+      "Title": "Phillip K Dick’s Electric Dreams",
+      "Year": "2017-09-17",
+      "Genre": [
+         "Drama",
+         "Science-Fiction",
+         "Mystery"
+      ]
+   },
+   {
+      "Title": "Black Lightning",
+      "Year": "2018-01-16",
+      "Genre": [
+         "Drama",
+         "Crime",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "Counterpart",
+      "Year": "2017-12-10",
+      "Genre": [
+         "Drama",
+         "Science-Fiction",
+         "Thriller"
+      ]
+   },
+   {
+      "Title": "Life Sentence",
+      "Year": "2018-03-07",
+      "Genre": [
+         "Drama",
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "Heathers",
+      "Year": "2018-07-11",
+      "Genre": [
+         "Drama",
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "9",
+      "Year": "2009",
+      "Rated": "PG-13",
+      "Released": "09 Sep 2009",
+      "Runtime": "79 min",
+      "Genre": "Animation, Action, Adventure",
+      "Director": "Shane Acker",
+      "Writer": "Pamela Pettler, Shane Acker, Ben Gluck",
+      "Actors": "Elijah Wood, Jennifer Connelly, Crispin Glover",
+      "Plot": "A rag doll that awakens in a postapocalyptic future holds the key to humanity's salvation.",
+      "Language": "English",
+      "Country": "United States, Canada, Luxembourg, United Kingdom, Russia",
+      "Awards": "9 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTY2ODE1MTgxMV5BMl5BanBnXkFtZTcwNTM1NTM2Mg@@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.0/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "57%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "60/100"
+         }
+      ],
+      "Metascore": "60",
+      "imdbRating": "7.0",
+      "imdbVotes": "156,153",
+      "imdbID": "tt0472033",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$31,749,894",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "The Good Place",
+      "Year": "2016-09-19",
+      "Genre": [
+         "Comedy",
+         "Fantasy",
+         "Supernatural"
+      ]
+   },
+   {
+      "Title": "Wayward Sisters",
+      "Year": null
+   },
+   {
+      "Title": "Grace and Frankie",
+      "Year": "2015-05-08",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "American Woman",
+      "Year": "2018-06-07",
+      "Genre": [
+         "Drama",
+         "Comedy"
+      ]
+   }
+]

@@ -1,0 +1,185 @@
+[
+   {
+      "Title": "Gotham",
+      "Year": "2014\u20132019",
+      "Rated": "TV-14",
+      "Released": "22 Sep 2014",
+      "Runtime": "42 min",
+      "Genre": "Action, Crime, Drama",
+      "Director": "N/A",
+      "Writer": "Bruno Heller",
+      "Actors": "Ben McKenzie, Jada Pinkett Smith, Donal Logue",
+      "Plot": "The story behind Detective James Gordon's rise to prominence in Gotham City in the years before Batman's arrival.",
+      "Language": "English, Russian, Italian, French, Spanish, Arabic",
+      "Country": "United States",
+      "Awards": "Won 1 Primetime Emmy. 7 wins & 62 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTg0ZmM3N2QtYmFiMy00YzUzLWE1M2QtZWVhMzBiNGZjMmVjXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.8/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.8",
+      "imdbVotes": "249,228",
+      "imdbID": "tt3749900",
+      "Type": "series",
+      "totalSeasons": "5",
+      "Response": "True"
+   },
+   {
+      "Title": "Sleepy Hollow",
+      "Year": "1999",
+      "Rated": "R",
+      "Released": "19 Nov 1999",
+      "Runtime": "105 min",
+      "Genre": "Fantasy, Horror, Mystery",
+      "Director": "Tim Burton",
+      "Writer": "Washington Irving, Kevin Yagher, Andrew Kevin Walker",
+      "Actors": "Johnny Depp, Christina Ricci, Miranda Richardson",
+      "Plot": "Ichabod Crane is sent to Sleepy Hollow to investigate the decapitations of three people; the culprit is legendary apparition The Headless Horseman.",
+      "Language": "English, Latin",
+      "Country": "United Kingdom, Germany, United States",
+      "Awards": "Won 1 Oscar. 28 wins & 44 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYWIwMTIxZTQtNDZhNS00ZDZlLTg5MTEtOTNkMmNjOGUzMTA1XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.3/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "71%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "65/100"
+         }
+      ],
+      "Metascore": "65",
+      "imdbRating": "7.3",
+      "imdbVotes": "406,254",
+      "imdbID": "tt0162661",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$101,071,502",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Jane the Virgin",
+      "Year": "2014\u20132019",
+      "Rated": "TV-PG",
+      "Released": "13 Oct 2014",
+      "Runtime": "4 min",
+      "Genre": "Comedy, Drama",
+      "Director": "N/A",
+      "Writer": "Jennie Snyder Urman",
+      "Actors": "Gina Rodriguez, Andrea Navedo, Yael Grobglas",
+      "Plot": "A young, devout Catholic woman discovers that she was accidentally artificially inseminated.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Nominated for 2 Primetime Emmys. 22 wins & 79 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZjNjZWI4OWUtZDY3Yy00NDBhLWE3YjMtNzc2ZTVjMjRkOWFlXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.8/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.8",
+      "imdbVotes": "63,548",
+      "imdbID": "tt3566726",
+      "Type": "series",
+      "totalSeasons": "5",
+      "Response": "True"
+   },
+   {
+      "Title": "Faking It",
+      "Year": null
+   },
+   {
+      "Title": "American Horror Story: Freakshow",
+      "Year": null
+   },
+   {
+      "Title": "Red Band Society",
+      "Year": null
+   },
+   {
+      "Title": "Black",
+      "Year": null
+   },
+   {
+      "Title": "Grey's Anatomy",
+      "Year": "2005\u2013",
+      "Rated": "TV-14",
+      "Released": "27 Mar 2005",
+      "Runtime": "41 min",
+      "Genre": "Drama, Romance",
+      "Director": "N/A",
+      "Writer": "Shonda Rhimes",
+      "Actors": "Ellen Pompeo, Chandra Wilson, James Pickens Jr.",
+      "Plot": "A drama centered on the personal and professional lives of five surgical interns and their supervisors.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 4 Primetime Emmys. 90 wins & 253 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTVjNWVhYTctMGJkMS00NWFjLWE2N2QtNmQ1Y2FhZDFkNzUwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.6/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.6",
+      "imdbVotes": "373,275",
+      "imdbID": "tt0413573",
+      "Type": "series",
+      "totalSeasons": "22",
+      "Response": "True"
+   },
+   {
+      "Title": "Scandal",
+      "Year": null
+   },
+   {
+      "Title": "How To Get Away With Murder",
+      "Year": null
+   },
+   {
+      "Title": "Cristela",
+      "Year": null
+   },
+   {
+      "Title": "Saturday Night Live",
+      "Year": null
+   },
+   {
+      "Title": "The Good Wife",
+      "Year": null
+   },
+   {
+      "Title": "Brooklyn Nine",
+      "Year": null
+   },
+   {
+      "Title": "The Walking Dead",
+      "Year": null
+   },
+   {
+      "Title": "The Comeback",
+      "Year": null
+   },
+   {
+      "Title": "Transparent",
+      "Year": null
+   },
+   {
+      "Title": "Words With Girls",
+      "Year": null
+   }
+]

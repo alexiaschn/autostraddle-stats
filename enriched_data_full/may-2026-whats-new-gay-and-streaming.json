@@ -1,0 +1,88 @@
+[
+   {
+      "Title": "My Dearest Señorita",
+      "Year": "2025"
+   },
+   {
+      "Title": "Fried Green Tomatoes",
+      "Year": "1991"
+   },
+   {
+      "Title": "Jennifer’s Body",
+      "Year": "2009"
+   },
+   {
+      "Title": "La Brea",
+      "Year": "2021-09-28",
+      "Genre": [
+         "Drama",
+         "Fantasy",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "Soul Mate: Season One",
+      "Year": "2026-05-14",
+      "Genre": [
+         "Drama"
+      ]
+   },
+   {
+      "Title": "Couple’s Therapy: Season 5 Premiere",
+      "Year": "2019-09-06",
+      "Genre": []
+   },
+   {
+      "Title": "Wanda Sykes: Legacy",
+      "Year": null
+   },
+   {
+      "Title": "SkyMed: Season 4 Premiere",
+      "Year": "2022-07-10",
+      "Genre": [
+         "Drama",
+         "Romance",
+         "Medical"
+      ]
+   },
+   {
+      "Title": "Mating Season: Season One",
+      "Year": "2026-05-22",
+      "Genre": [
+         "Comedy",
+         "Adult"
+      ]
+   },
+   {
+      "Title": "A Good Girl’s Guide To Murder: Season Two",
+      "Year": "2024-07-01",
+      "Genre": [
+         "Crime",
+         "Thriller"
+      ]
+   },
+   {
+      "Title": "Four Seasons: Season Two",
+      "Year": "2025-05-01",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "Criminal Minds: Evolution: Season 19 Premiere",
+      "Year": "2005-09-22",
+      "Genre": [
+         "Drama",
+         "Crime",
+         "Thriller"
+      ]
+   },
+   {
+      "Title": "The Moment",
+      "Year": "2020-02-08",
+      "Genre": [
+         "Drama",
+         "Romance"
+      ]
+   }
+]

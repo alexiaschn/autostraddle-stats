@@ -1,0 +1,237 @@
+[
+   {
+      "Title": "Marvel’s Runaways",
+      "Year": "2017-11-21",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "Honey Don’t",
+      "Year": "2020-03-22",
+      "Genre": [
+         "Drama",
+         "Romance",
+         "History"
+      ]
+   },
+   {
+      "Title": "The Lincoln Lawyer",
+      "Year": "2011",
+      "Rated": "R",
+      "Released": "18 Mar 2011",
+      "Runtime": "118 min",
+      "Genre": "Crime, Drama, Mystery",
+      "Director": "Brad Furman",
+      "Writer": "John Romano, Michael Connelly",
+      "Actors": "Matthew McConaughey, Marisa Tomei, Ryan Phillippe",
+      "Plot": "Defence lawyer Mick Haller lands a case defending a wealthy realtor's son who is accused of raping a prostitute. Believing his client to be innocent, Haller soon finds evidence that proves otherwise.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "1 nomination total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ4NDE4NTY5MV5BMl5BanBnXkFtZTcwODQyMTkxNA@@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.3/10"
+         },
+         {
+            "Source": "Rotten Tomatoes",
+            "Value": "83%"
+         },
+         {
+            "Source": "Metacritic",
+            "Value": "63/100"
+         }
+      ],
+      "Metascore": "63",
+      "imdbRating": "7.3",
+      "imdbVotes": "266,302",
+      "imdbID": "tt1189340",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$58,009,200",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Search Party",
+      "Year": "2016–2022",
+      "Rated": "TV-MA",
+      "Released": "17 Nov 2016",
+      "Runtime": "24 min",
+      "Genre": "Comedy, Crime, Drama",
+      "Director": "N/A",
+      "Writer": "Sarah-Violet Bliss, Charles Rogers, Michael Showalter",
+      "Actors": "Alia Shawkat, John Reynolds, John Early",
+      "Plot": "Search Party is a dark comedy about four self-absorbed twenty-somethings who become entangled in an ominous mystery when a former college acquaintance suddenly disappears.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "3 wins & 13 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzcwNWFiODUtNmUyOC00Y2JkLTliYmUtYTM3MWIwNWY5ODM3XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.6/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.6",
+      "imdbVotes": "14,484",
+      "imdbID": "tt5460226",
+      "Type": "series",
+      "totalSeasons": "5",
+      "Response": "True"
+   },
+   {
+      "Title": "This Is I",
+      "Year": "2026",
+      "Rated": "TV-MA",
+      "Released": "10 Feb 2026",
+      "Runtime": "130 min",
+      "Genre": "Biography, Drama, Music",
+      "Director": "Yusaku Matsumoto",
+      "Writer": "N/A",
+      "Actors": "Haruki Mochizuki, Tae Kimura, Seiji Chihara",
+      "Plot": "Bullied for wanting to be an idol, Kenji finds belonging in a cabaret and help from a trailblazing doctor, emerging onstage as her true self, Ai Haruna.",
+      "Language": "Japanese",
+      "Country": "Japan",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZWI0YjA4OWQtM2Q3Yy00OGJjLWE1ODEtNmEyYjk4NWMwMjRhXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.0/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.0",
+      "imdbVotes": "203",
+      "imdbID": "tt39196792",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+   },
+   {
+      "Title": "Reality Check: Inside America's Next Top Model",
+      "Year": "2026",
+      "Rated": "TV-MA",
+      "Released": "16 Feb 2026",
+      "Runtime": "N/A",
+      "Genre": "Documentary",
+      "Director": "N/A",
+      "Writer": "N/A",
+      "Actors": "Shandi Sullivan, Tyra Banks, Ken Mok",
+      "Plot": "Reality Check: Inside America's Next Top Model is the essential documentary on ANTM. The glamorous modeling competition became a pop-culture phenomenon marked by explosive drama, meltdowns, and controversies that remain viral today.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BY2M5MTE2NTktNjJmZC00Zjc5LTg4M2EtMGRmODM3ODM1YTE5XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.5/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.5",
+      "imdbVotes": "1,180",
+      "imdbID": "tt39398591",
+      "Type": "series",
+      "totalSeasons": "1",
+      "Response": "True"
+   },
+   {
+      "Title": "56 Days",
+      "Year": "2026–",
+      "Rated": "N/A",
+      "Released": "18 Feb 2026",
+      "Runtime": "N/A",
+      "Genre": "Crime, Drama, Mystery",
+      "Director": "N/A",
+      "Writer": "N/A",
+      "Actors": "Avan Jogia, Dove Cameron, Karla Souza",
+      "Plot": "After a chance supermarket encounter, Oliver and Ciara embark on an intense relationship. When a savagely murdered corpse surfaces 56 days later, the investigation delves into their turbulent love story, revealing grim secrets.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzA2YmY1YjItMTIzZi00NDM0LWFiN2EtZDc5NzIyNTIxNzM5XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "6.5/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.5",
+      "imdbVotes": "1,393",
+      "imdbID": "tt30412869",
+      "Type": "series",
+      "totalSeasons": "1",
+      "Response": "True"
+   },
+   {
+      "Title": "Bridgerton",
+      "Year": "2020–",
+      "Rated": "TV-MA",
+      "Released": "25 Dec 2020",
+      "Runtime": "60 min",
+      "Genre": "Drama, Romance",
+      "Director": "N/A",
+      "Writer": "Chris Van Dusen",
+      "Actors": "Nicola Coughlan, Luke Thompson, Florence Hunt",
+      "Plot": "The eight close-knit siblings of the Bridgerton family look for love and happiness in London high society.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 5 Primetime Emmys. 23 wins & 105 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNmY4MDAyNjgtZTBkYi00MTY5LWIwOTctZjY1MGQ0MDM5NTU3XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.5/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.5",
+      "imdbVotes": "219,043",
+      "imdbID": "tt8740790",
+      "Type": "series",
+      "totalSeasons": "4",
+      "Response": "True"
+   },
+   {
+      "Title": "Monarch: Legacy of Monsters",
+      "Year": "2023–",
+      "Rated": "TV-14",
+      "Released": "17 Nov 2023",
+      "Runtime": "N/A",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "N/A",
+      "Writer": "Chris Black, Matt Fraction",
+      "Actors": "Anna Sawai, Kiersey Clemons, Ren Watabe",
+      "Plot": "Set after the battle between Godzilla and the Titans, revealing that monsters are real, follows one family's journey to uncover its buried secrets and a legacy linking them to Monarch.",
+      "Language": "English, Japanese",
+      "Country": "United States, Japan",
+      "Awards": "4 wins & 11 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjZjNGFmYmItMzVjYy00Yzc3LWFhN2EtOGU1ZTc2MWEwODUzXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.0/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.0",
+      "imdbVotes": "58,717",
+      "imdbID": "tt17220216",
+      "Type": "series",
+      "totalSeasons": "2",
+      "Response": "True"
+   }
+]

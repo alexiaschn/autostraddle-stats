@@ -1,0 +1,173 @@
+[
+   {
+      "Title": "Raising Dion: Season 2",
+      "Year": "2019-10-04",
+      "Genre": [
+         "Drama",
+         "Family",
+         "Science-Fiction"
+      ]
+   },
+   {
+      "Title": "Disenchantment: Season 4",
+      "Year": "2018-08-17",
+      "Genre": [
+         "Comedy",
+         "Adventure",
+         "Fantasy"
+      ]
+   },
+   {
+      "Title": "Anne+ The Film",
+      "Year": null
+   },
+   {
+      "Title": "Inventing Anna: Limited Series*",
+      "Year": "2022-02-11",
+      "Genre": [
+         "Drama"
+      ]
+   },
+   {
+      "Title": "Heart Shot",
+      "Year": "2026-07-13",
+      "Genre": [
+         "Food"
+      ]
+   },
+   {
+      "Title": "One of Us is Lying: Season One",
+      "Year": "2021-10-07",
+      "Genre": [
+         "Drama",
+         "Mystery"
+      ]
+   },
+   {
+      "Title": "Space Force: Season 2",
+      "Year": "2020-05-29",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "Black Swan",
+      "Year": "2024-05-28",
+      "Genre": []
+   },
+   {
+      "Title": "Pam & Tommy: Limited Series*",
+      "Year": "2022-02-02",
+      "Genre": [
+         "Drama",
+         "Comedy",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "Dollface: Complete Season 2",
+      "Year": null
+   },
+   {
+      "Title": "Grey's Anatomy",
+      "Year": "2005–",
+      "Rated": "TV-14",
+      "Released": "27 Mar 2005",
+      "Runtime": "41 min",
+      "Genre": "Drama, Romance",
+      "Director": "N/A",
+      "Writer": "Shonda Rhimes",
+      "Actors": "Ellen Pompeo, Chandra Wilson, James Pickens Jr.",
+      "Plot": "A drama centered on the personal and professional lives of five surgical interns and their supervisors.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 4 Primetime Emmys. 90 wins & 253 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTVjNWVhYTctMGJkMS00NWFjLWE2N2QtNmQ1Y2FhZDFkNzUwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Ratings": [
+         {
+            "Source": "Internet Movie Database",
+            "Value": "7.6/10"
+         }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.6",
+      "imdbVotes": "373,275",
+      "imdbID": "tt0413573",
+      "Type": "series",
+      "totalSeasons": "22",
+      "Response": "True"
+   },
+   {
+      "Title": "Station 19",
+      "Year": "2018-03-22",
+      "Genre": [
+         "Drama",
+         "Action",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "Better Things: Season 5 Premiere",
+      "Year": "2016-09-08",
+      "Genre": [
+         "Drama",
+         "Comedy",
+         "Family"
+      ]
+   },
+   {
+      "Title": "Life Partners",
+      "Year": "2014"
+   },
+   {
+      "Title": "LOL: Last One Laughing Canada: Season One",
+      "Year": "2022-02-18",
+      "Genre": [
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "Pure",
+      "Year": "2019-01-30",
+      "Genre": [
+         "Drama",
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "About Last Night: Season One Premiere",
+      "Year": "2022-02-10",
+      "Genre": []
+   },
+   {
+      "Title": "The Proud Family: Louder and Prouder",
+      "Year": "2022-02-23",
+      "Genre": []
+   },
+   {
+      "Title": "Bel",
+      "Year": "2013-11-20",
+      "Genre": [
+         "Drama",
+         "Comedy",
+         "Romance"
+      ]
+   },
+   {
+      "Title": "State of the Union: Season 2",
+      "Year": "2019-05-06",
+      "Genre": [
+         "Drama",
+         "Comedy"
+      ]
+   },
+   {
+      "Title": "Killing Eve: Season 4 Premiere",
+      "Year": "2018-04-08",
+      "Genre": [
+         "Drama",
+         "Crime",
+         "Thriller"
+      ]
+   }
+]
